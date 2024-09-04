@@ -45,6 +45,7 @@
     </header>
     <nav>
         <div class="container">
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#stay-in-loop">Stay in the Loop</a></li>
@@ -206,6 +207,19 @@
         </div>
     </footer>
     <script>
+        // Mobile menu toggle
+document.querySelector('.menu-toggle').addEventListener('click', function() {
+    document.querySelector('nav ul').classList.toggle('show');
+});
+
+// Close menu when a link is clicked
+document.querySelectorAll('nav ul li a').forEach(link => {
+    link.addEventListener('click', () => {
+        document.querySelector('nav ul').classList.remove('show');
+    });
+});
+
+
     // GSAP animations
     gsap.registerPlugin(ScrollTrigger);
 
