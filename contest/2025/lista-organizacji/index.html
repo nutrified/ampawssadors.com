@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Organizacji - Ampawssador of the Year 2025 | Ampawssadors®</title>
+    <meta name="description" content="Lista organizacji uczestniczących w konkursie Ampawssador of the Year 2025 - partnerzy i organizacje wspierające.">
+    <meta name="keywords" content="organizacje, partnerzy, konkurs Ampawssador 2025, Nutrified, schroniska">
+    <link rel="canonical" href="https://ampawssadors.com/contest/2025/lista-organizacji">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ampawssadors.com/contest/2025/lista-organizacji">
+    <meta property="og:title" content="Lista Organizacji - Ampawssador of the Year 2025">
+    <meta property="og:description" content="Lista organizacji uczestniczących w konkursie Ampawssador of the Year 2025">
+    <meta property="og:image" content="https://ampawssadors.com/img/social_share.png">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ampawssadors.com/contest/2025/lista-organizacji">
+    <meta property="twitter:title" content="Lista Organizacji - Ampawssador of the Year 2025">
+    <meta property="twitter:description" content="Lista organizacji uczestniczących w konkursie Ampawssador of the Year 2025">
+    <meta property="twitter:image" content="https://ampawssadors.com/img/social_share.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script defer data-domain="ampawssadors.com" src="https://analytics.codeero.com/js/script.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../../img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../../../img/favicon/safari-pinned-tab.svg" color="#194b4b">
+    <link rel="shortcut icon" href="../../../img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="../../../img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        .document-container {
+            background-color: white;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .document-header {
+            text-align: center;
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+
+        .document-header h2 {
+            color: var(--secondary-color);
+            margin-bottom: 10px;
+        }
+
+        .document-header .subtitle {
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .intro-text {
+            margin-bottom: 40px;
+            text-align: center;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .filters {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+            padding: 30px;
+            background-color: var(--background-color);
+            border-radius: 12px;
+        }
+
+        .filter-group {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .filter-group label {
+            display: block;
+            font-weight: 600;
+            color: var(--secondary-color);
+            margin-bottom: 8px;
+        }
+
+        .filter-group select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: 'Poppins', sans-serif;
+            background-color: white;
+            cursor: pointer;
+            transition: border-color 0.3s ease;
+        }
+
+        .filter-group select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        .filter-group select:hover {
+            border-color: var(--primary-color);
+        }
+
+        .results-count {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+            color: var(--secondary-color);
+            font-weight: 600;
+        }
+
+        .organizations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .organization-card {
+            background-color: var(--background-color);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .organization-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .organization-card h3 {
+            color: var(--secondary-color);
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        .organization-card .badges {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+
+        .badge {
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .badge.type-shelter {
+            background-color: #e3f2fd;
+            color: #1976d2;
+        }
+
+        .badge.type-foundation {
+            background-color: #f3e5f5;
+            color: #7b1fa2;
+        }
+
+        .badge.type-organization {
+            background-color: #e8f5e9;
+            color: #388e3c;
+        }
+
+        .badge.tax-deductible {
+            background-color: #fff3e0;
+            color: #f57c00;
+        }
+
+        .organization-card .city {
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .organization-card p {
+            margin-bottom: 15px;
+            line-height: 1.7;
+            font-size: 0.95rem;
+        }
+
+        .organization-card .website {
+            display: inline-block;
+            padding: 10px 18px;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .organization-card .website:hover {
+            background-color: var(--secondary-color);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            padding: 10px 20px;
+            background-color: var(--secondary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-link:hover {
+            background-color: var(--primary-color);
+        }
+
+        .highlight-box {
+            background-color: var(--background-color);
+            border-left: 4px solid var(--primary-color);
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+
+        .no-results h3 {
+            color: var(--secondary-color);
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .document-container {
+                padding: 30px 20px;
+            }
+
+            .organizations-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .filters {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Lista Organizacji</h1>
+            <p>Ampawssador of the Year 2025</p>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/contest">Contest</a></li>
+                <li><a href="/contest/2025/lista-organizacji">Lista Organizacji</a></li>
+                <li><a href="https://www.nutrified.com" target="_blank">Nutrified</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container">
+        <a href="/contest" class="back-link">← Back to Contest Overview</a>
+
+        <div class="document-container">
+            <div class="document-header">
+                <h2>Wybierz Organizację do Wsparcia</h2>
+                <p class="subtitle">Darowizna 17,000 PLN dla wybranego schroniska</p>
+            </div>
+
+            <div class="intro-text">
+                <p>Jako zwycięzca konkursu Ampawssador of the Year 2025, możesz wybrać organizację, która otrzyma darowiznę w wysokości <strong>17,000 PLN</strong>. Przeglądaj poniższą listę zweryfikowanych schronisk i organizacji wspierających dobrostan zwierząt w całej Polsce.</p>
+            </div>
+
+            <div class="highlight-box">
+                <strong>Dla uczestników konkursu:</strong> Wybierz organizację z poniższej listy lub zaproponuj własną organizację, która zostanie poddana weryfikacji. Skontaktuj się z nami pod adresem <a href="mailto:contest@ampawssadors.com" style="color: var(--primary-color); font-weight: 600;">contest@ampawssadors.com</a>
+            </div>
+
+            <!-- Filters -->
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="cityFilter">Filtruj po mieście:</label>
+                    <select id="cityFilter">
+                        <option value="all">Wszystkie miasta</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="typeFilter">Filtruj po typie:</label>
+                    <select id="typeFilter">
+                        <option value="all">Wszystkie typy</option>
+                        <option value="shelter">Schroniska</option>
+                        <option value="foundation">Fundacje</option>
+                        <option value="organization">Organizacje</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="results-count" id="resultsCount"></div>
+
+            <!-- Organizations Grid -->
+            <div class="organizations-grid" id="organizationsGrid"></div>
+
+            <div class="highlight-box" style="margin-top: 50px; text-align: center;">
+                <strong>Ważne:</strong> Wszystkie organizacje na tej liście zostały zweryfikowane przez Nutrified pod względem zgodności z kryteriami konkursu. Jeśli chcesz zaproponować inną organizację, która nie znajduje się na liście, <a href="mailto:contest@ampawssadors.com" style="color: var(--primary-color); font-weight: 600;">skontaktuj się z nami w celu weryfikacji</a>.
+            </div>
+
+            <p style="margin-top: 40px; text-align: center; font-style: italic; color: #666;">
+                Ostatnia aktualizacja: 17 listopada 2024
+            </p>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand footer-links">
+                    <a href="https://www.nutrified.com">A Nutrified<sup>®</sup> brand</a>
+                </div>
+                <div class="footer-links">
+                    <a href="/">Home</a>
+                    <a href="/contest">Contest</a>
+                    <a href="/#about">About</a>
+                    <a href="/#gallery">Gallery</a>
+                    <a href="https://nutrified.vet" target="_blank">Nutrified</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://instagram.com/ampawssadors" target="_blank">Instagram</a>
+                    <a href="https://www.youtube.com/@nutrified_vet" target="_blank">YouTube</a>
+                    <a href="https://facebook.com/nutrified.vet" target="_blank">Facebook</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Ampawssadors<sup>®</sup>. All rights reserved.</p>
+                <p>Ampawssadors<sup>®</sup> and Nutrified<sup>®</sup> are registered trademarks of <a href="https://www.mineo.cy" class="footer-link">Mineo Minerals Limited</a>.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        // Close menu when a link is clicked
+        document.querySelectorAll('nav ul li a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('nav ul').classList.remove('show');
+            });
+        });
+
+        // Load and display organizations
+        let organizationsData = {};
+        let filteredOrganizations = [];
+
+        async function loadOrganizations() {
+            try {
+                const response = await fetch('/data/organizations.json');
+                organizationsData = await response.json();
+
+                // Populate city filter
+                const cityFilter = document.getElementById('cityFilter');
+                Object.keys(organizationsData).forEach(city => {
+                    const option = document.createElement('option');
+                    option.value = city;
+                    option.textContent = city;
+                    cityFilter.appendChild(option);
+                });
+
+                // Initial render
+                filterOrganizations();
+            } catch (error) {
+                console.error('Error loading organizations:', error);
+                document.getElementById('organizationsGrid').innerHTML =
+                    '<div class="no-results"><h3>Błąd wczytywania danych</h3><p>Przepraszamy, nie udało się załadować listy organizacji.</p></div>';
+            }
+        }
+
+        function filterOrganizations() {
+            const cityFilter = document.getElementById('cityFilter').value;
+            const typeFilter = document.getElementById('typeFilter').value;
+
+            filteredOrganizations = [];
+
+            // Filter organizations based on selected criteria
+            Object.keys(organizationsData).forEach(city => {
+                if (cityFilter !== 'all' && city !== cityFilter) return;
+
+                const cityData = organizationsData[city];
+
+                // Add shelters
+                if (cityData.shelters && (typeFilter === 'all' || typeFilter === 'shelter')) {
+                    cityData.shelters.forEach(org => {
+                        filteredOrganizations.push({ ...org, city, category: 'shelter' });
+                    });
+                }
+
+                // Add organizations
+                if (cityData.organizations) {
+                    cityData.organizations.forEach(org => {
+                        if (typeFilter === 'all' || typeFilter === org.type) {
+                            filteredOrganizations.push({ ...org, city, category: org.type });
+                        }
+                    });
+                }
+            });
+
+            renderOrganizations();
+        }
+
+        function getTypeName(type) {
+            const names = {
+                'shelter': 'Schronisko',
+                'foundation': 'Fundacja',
+                'organization': 'Organizacja'
+            };
+            return names[type] || type;
+        }
+
+        function renderOrganizations() {
+            const grid = document.getElementById('organizationsGrid');
+            const resultsCount = document.getElementById('resultsCount');
+
+            resultsCount.textContent = `Znaleziono ${filteredOrganizations.length} organizacji`;
+
+            if (filteredOrganizations.length === 0) {
+                grid.innerHTML = '<div class="no-results"><h3>Brak wyników</h3><p>Nie znaleziono organizacji spełniających wybrane kryteria.</p></div>';
+                return;
+            }
+
+            grid.innerHTML = filteredOrganizations.map(org => `
+                <div class="organization-card">
+                    <h3>${org.name}</h3>
+                    <div class="badges">
+                        <span class="badge type-${org.category}">${getTypeName(org.category)}</span>
+                        ${org.tax_deductible ? '<span class="badge tax-deductible">Odliczenie 1.5%</span>' : ''}
+                    </div>
+                    <div class="city">📍 ${org.city}</div>
+                    <p>${org.description}</p>
+                    <a href="${org.website}" target="_blank" rel="noopener noreferrer" class="website">Odwiedź stronę →</a>
+                </div>
+            `).join('');
+
+            // Animate cards
+            gsap.utils.toArray(".organization-card").forEach((card, index) => {
+                gsap.fromTo(card,
+                    { opacity: 0, y: 20 },
+                    {
+                        opacity: 1,
+                        y: 0,
+                        duration: 0.5,
+                        delay: index * 0.05,
+                        ease: "power2.out"
+                    }
+                );
+            });
+        }
+
+        // Event listeners for filters
+        document.getElementById('cityFilter').addEventListener('change', filterOrganizations);
+        document.getElementById('typeFilter').addEventListener('change', filterOrganizations);
+
+        // Load organizations on page load
+        loadOrganizations();
+
+        // GSAP animations
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Header animations
+        gsap.to("header h1", { opacity: 1, y: 0, duration: 1, delay: 0.5 });
+        gsap.to("header p", { opacity: 1, y: 0, duration: 1, delay: 0.7 });
+
+        // Document container animation
+        gsap.to(".document-container", {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            scrollTrigger: {
+                trigger: ".document-container",
+                start: "top 80%",
+            }
+        });
+    </script>
+</body>
+
+</html>

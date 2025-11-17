@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ampawssador of the Year Contest | Ampawssadors® - Nutrified</title>
+    <meta name="description" content="Join the Ampawssador of the Year contest and celebrate the most outstanding pet ambassadors in the Nutrified community.">
+    <meta name="keywords" content="Ampawssador contest, pet contest, Nutrified, pet ambassadors, ampawssador of the year">
+    <link rel="canonical" href="https://ampawssadors.com/contest">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ampawssadors.com/contest">
+    <meta property="og:title" content="Ampawssador of the Year Contest">
+    <meta property="og:description" content="Join the Ampawssador of the Year contest and celebrate the most outstanding pet ambassadors in the Nutrified community.">
+    <meta property="og:image" content="https://ampawssadors.com/img/social_share.png">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ampawssadors.com/contest">
+    <meta property="twitter:title" content="Ampawssador of the Year Contest">
+    <meta property="twitter:description" content="Join the Ampawssador of the Year contest and celebrate the most outstanding pet ambassadors in the Nutrified community.">
+    <meta property="twitter:image" content="https://ampawssadors.com/img/social_share.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script defer data-domain="ampawssadors.com" src="https://analytics.codeero.com/js/script.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../img/favicon/safari-pinned-tab.svg" color="#194b4b">
+    <link rel="shortcut icon" href="../img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="../img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        .contest-year {
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 60px;
+        }
+
+        .contest-year h3 {
+            color: var(--primary-color);
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 10px;
+        }
+
+        .contest-section {
+            margin-bottom: 30px;
+        }
+
+        .contest-section h4 {
+            color: var(--secondary-color);
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .contest-links {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        .contest-link {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .contest-link:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+
+        .contest-link.secondary {
+            background-color: var(--secondary-color);
+        }
+
+        .contest-link.secondary:hover {
+            background-color: var(--primary-color);
+        }
+
+        .year-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            background-color: var(--secondary-color);
+            color: white;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin-left: 10px;
+        }
+
+        .year-badge.current {
+            background-color: var(--primary-color);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.7;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Ampawssador of the Year</h1>
+            <p>Celebrating Our Outstanding Pet Ambassadors</p>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/contest">Contest</a></li>
+                <li><a href="/contest/2025/lista-organizacji">Lista Organizacji</a></li>
+                <li><a href="https://www.nutrified.com" target="_blank">Nutrified</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container">
+        <section id="contest-intro">
+            <h2>Contest Overview</h2>
+            <p>The Ampawssador of the Year contest celebrates the most exceptional four-legged ambassadors in our community. Each year, we recognize pets who embody the Nutrified lifestyle, inspire others, and showcase the incredible bond between pets and their humans.</p>
+            <p>Browse the contest documents by year to learn more about participation, rules, and our amazing participants.</p>
+        </section>
+
+        <!-- 2025 Contest Section -->
+        <div class="contest-year">
+            <h3>2025 Contest <span class="year-badge current">Current</span></h3>
+
+            <div class="contest-section">
+                <h4>Ampawssador of the Year 2025</h4>
+                <p>Join us for the 2025 edition of the Ampawssador of the Year contest! Nominations are now open for this year's most outstanding pet ambassadors.</p>
+
+                <div class="contest-links">
+                    <a href="/contest/2025/regulamin" class="contest-link">View Contest Rules (Regulamin)</a>
+                    <a href="/contest/2025/lista-organizacji" class="contest-link secondary">View Participating Organizations</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2024 Contest Section -->
+        <div class="contest-year">
+            <h3>2024 Contest <span class="year-badge">Archive</span></h3>
+
+            <div class="contest-section">
+                <h4>Ampawssador of the Year 2024</h4>
+                <p>Congratulations to all participants in our 2024 contest! Thank you to everyone who made this year's competition a tremendous success.</p>
+
+                <div class="contest-links">
+                    <a href="#" class="contest-link" onclick="alert('2024 contest documents coming soon!'); return false;">View 2024 Results</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand footer-links">
+                    <a href="https://www.nutrified.com">A Nutrified<sup>®</sup> brand</a>
+                </div>
+                <div class="footer-links">
+                    <a href="/">Home</a>
+                    <a href="/#about">About</a>
+                    <a href="/#gallery">Gallery</a>
+                    <a href="/#wall-of-love">Wall of Love</a>
+                    <a href="/#events">Events</a>
+                    <a href="https://nutrified.vet" target="_blank">Nutrified</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://instagram.com/ampawssadors" target="_blank">Instagram</a>
+                    <a href="https://www.youtube.com/@nutrified_vet" target="_blank">YouTube</a>
+                    <a href="https://facebook.com/nutrified.vet" target="_blank">Facebook</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Ampawssadors<sup>®</sup>. All rights reserved.</p>
+                <p>Ampawssadors<sup>®</sup> and Nutrified<sup>®</sup> are registered trademarks of <a href="https://www.mineo.cy" class="footer-link">Mineo Minerals Limited</a>.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        // Close menu when a link is clicked
+        document.querySelectorAll('nav ul li a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('nav ul').classList.remove('show');
+            });
+        });
+
+        // GSAP animations
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Header animations
+        gsap.to("header h1", { opacity: 1, y: 0, duration: 1, delay: 0.5 });
+        gsap.to("header p", { opacity: 1, y: 0, duration: 1, delay: 0.7 });
+
+        // Section animations
+        gsap.utils.toArray("section, .contest-year").forEach(section => {
+            gsap.to(section, {
+                opacity: 1,
+                y: 0,
+                duration: 1,
+                scrollTrigger: {
+                    trigger: section,
+                    start: "top 80%",
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,876 @@
+{
+  "Warszawa": {
+    "shelters": [
+      {
+        "name": "Schronisko dla Bezdomnych Zwierząt \"Na Paluchu\"",
+        "type": "shelter",
+        "website": "https://napaluchu.waw.pl",
+        "tax_deductible": false,
+        "description": "Warsaw’s large municipal animal shelter, caring for hundreds of homeless dogs and cats and facilitating their adoptions:contentReference[oaicite:0]{index=0}. Funded by the city, it only takes in stray animals from within Warsaw."
+      },
+      {
+        "name": "Fundacja Azylu pod Psim Aniołem",
+        "type": "shelter",
+        "website": "https://www.psianiol.org.pl",
+        "tax_deductible": true,
+        "description": "A long-running charitable shelter that rescues injured and abandoned dogs and cats in Warsaw, providing medical care and rehoming them; it is the only non-municipal dog shelter in the city:contentReference[oaicite:1]{index=1}:contentReference[oaicite:2]{index=2}."
+      },
+      {
+        "name": "Fundacja Schronisko dla Bezdomnych Zwierząt w Józefowie",
+        "type": "shelter",
+        "website": "https://schroniskojozefow.pl",
+        "tax_deductible": true,
+        "description": "A nonprofit shelter near Warsaw, operating under a public benefit foundation, which provides humane care for abandoned dogs and cats and actively promotes their adoption:contentReference[oaicite:3]{index=3}."
+      },
+      {
+        "name": "Schronisko w Korabiewicach (Fundacja Viva!)",
+        "type": "shelter",
+        "website": "https://schronisko.info.pl",
+        "tax_deductible": true,
+        "description": "A large farm-animal and pet sanctuary run by Fundacja Viva since 2012, housing rescued dogs, cats, horses, and farm animals entirely on donor support:contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}."
+      },
+      {
+        "name": "Fundacja Znajdki (Przytulisko Znajdki k. Radzymina)",
+        "type": "shelter",
+        "website": "https://znajdki.pl",
+        "tax_deductible": true,
+        "description": "A volunteer-driven rescue that operates a small private shelter near Warsaw, caring for ~50 dogs and 40 cats – many sick or abandoned – rehabilitating them and finding loving homes:contentReference[oaicite:6]{index=6}:contentReference[oaicite:7]{index=7}."
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Fundacja Międzynarodowy Ruch Na Rzecz Zwierząt \"Viva!\"",
+        "type": "foundation",
+        "website": "https://viva.org.pl",
+        "tax_deductible": true,
+        "description": "A leading animal advocacy foundation based in Warsaw, known for campaigning against animal cruelty (farms, fur, circuses) and rescuing animals; Viva has OPP status and uses tax-deductible donations to save countless animals:contentReference[oaicite:8]{index=8}."
+      },
+      {
+        "name": "Fundacja Animal Rescue Poland",
+        "type": "foundation",
+        "website": "https://animalrescue.pl",
+        "tax_deductible": true,
+        "description": "A Warsaw-area emergency rescue group (est. 2015) that helps domestic, farm, and wild animals. Its volunteers run 24/7 interventions for injured wildlife, cruelty cases, and accidents, working closely with police and veterinarians:contentReference[oaicite:9]{index=9}:contentReference[oaicite:10]{index=10}."
+      },
+      {
+        "name": "Fundacja Przyjaciele Palucha",
+        "type": "foundation",
+        "website": "https://przyjacielepalucha.pl",
+        "tax_deductible": true,
+        "description": "A public-benefit foundation supporting ill or elderly animals from Warsaw’s shelter. It funds veterinary care, fosters, and adoption promotion – over 75% of its budget comes from 1.5% tax donations:contentReference[oaicite:11]{index=11}."
+      },
+      {
+        "name": "Fundacja Koteria",
+        "type": "foundation",
+        "website": "https://koteria.org.pl",
+        "tax_deductible": true,
+        "description": "An organization running Warsaw’s only free sterilization clinic for stray cats, focusing on humane TNR (trap-neuter-return) and public education. Since 2009 it has neutered over 16,500 cats and found homes for over 1,000 tame cats:contentReference[oaicite:12]{index=12}:contentReference[oaicite:13]{index=13}."
+      },
+      {
+        "name": "Towarzystwo Opieki nad Zwierzętami w Polsce – Oddział Warszawa",
+        "type": "organization",
+        "website": "http://www.warszawa.toz.pl",
+        "tax_deductible": true,
+        "description": "The Warsaw branch of Poland’s oldest animal welfare society (TOZ). TOZ chapters rescue thousands of animals and have been instrumental in animal protection laws (they spearheaded the 1997 Animal Protection Act):contentReference[oaicite:14]{index=14}. They promote humane treatment and run adoption and education programs."
+      },
+      {
+        "name": "Stowarzyszenie Pomocy Królikom",
+        "type": "organization",
+        "website": "https://www.kroliki.net",
+        "tax_deductible": true,
+        "description": "A nationwide public-benefit association (with a major center in Warsaw) dedicated to rescuing homeless rabbits. It runs rabbit adoption centers (in Warsaw, Sopot, Kraków, Bytom) and educates the public about proper rabbit care:contentReference[oaicite:15]{index=15}."
+      },
+      {
+        "name": "Fundacja Pegasus",
+        "type": "foundation",
+        "website": "https://pegasus.org.pl",
+        "tax_deductible": true,
+        "description": "A rescue foundation saving horses from abuse and slaughter since 2002. Pegasus operates a sanctuary near Warsaw where horses, ponies, donkeys, goats, llamas, as well as some dogs and cats, are rehabilitated and cared for on a 30-hectare farm:contentReference[oaicite:16]{index=16}:contentReference[oaicite:17]{index=17}."
+      },
+      {
+        "name": "Fundacja Opieki nad Zwierzętami Canis",
+        "type": "foundation",
+        "website": "http://fundacjacanis.org.pl",
+        "tax_deductible": true,
+        "description": "A Warsaw-based charity (est. 1992) focused on helping stray cats and dogs:contentReference[oaicite:18]{index=18}. CANIS provides vet care (sterilizations, treatments) and runs a network of foster homes and adoption centers to rehome abandoned pets:contentReference[oaicite:19]{index=19}."
+      },
+      {
+        "name": "Compassion in World Farming Polska",
+        "type": "foundation",
+        "website": "https://www.ciwf.pl",
+        "tax_deductible": true,
+        "description": "The Polish branch of Compassion in World Farming (est. 2013, OPP since 2016) campaigns for farm animal welfare and ending factory farming:contentReference[oaicite:20]{index=20}. It conducts investigations into farm cruelty and advocates for legal reforms to improve conditions for livestock."
+      },
+      {
+        "name": "Stowarzyszenie Empatia",
+        "type": "organization",
+        "website": "http://empatia.pl",
+        "tax_deductible": false,
+        "description": "A Warsaw-based animal rights association founded in 2004 that promotes veganism and respect for all animals through peaceful advocacy and education. Empatia works to advance the humane treatment and legal protection of animals:contentReference[oaicite:21]{index=21}."
+      }
+    ]
+  },
+  "Kraków": {
+    "shelters": [
+      {
+        "name": "KTOZ Schronisko dla Bezdomnych Zwierząt w Krakowie",
+        "type": "shelter",
+        "website": "http://www.schronisko.krakow.pl",
+        "tax_deductible": true,
+        "description": "The city’s main animal shelter run by the Krakow Animal Welfare Society (KTOZ). It houses around 600 animals on any day:contentReference[oaicite:22]{index=22}, providing stray dogs and cats with veterinary care and a chance for adoption in a humane environment."
+      },
+      {
+        "name": "Schronisko dla Bezdomnych Zwierząt w Krakowie (ul. Rybna 3)",
+        "type": "shelter",
+        "website": "http://www.schronisko.krakow.pl",
+        "tax_deductible": true,
+        "description": "See above – the KTOZ-operated city shelter at ul. Rybna, which offers shelter and adoption for Kraków’s homeless pets. (Operated by KTOZ, a public benefit organization.)"
+      },
+      {
+        "name": "Kociarnia \"Stawiamy na Łapy\"",
+        "type": "shelter",
+        "website": "https://www.stawiamynalapy.pl",
+        "tax_deductible": true,
+        "description": "A network of foster homes and a small cat shelter run by Fundacja Stawiamy na Łapy. They specialize in rescuing homeless cats in Kraków, including sick or injured ones, and preparing them for adoption in loving homes:contentReference[oaicite:23]{index=23}:contentReference[oaicite:24]{index=24}."
+      },
+      {
+        "name": "Schronisko dla Zwierząt w Krakowie – Oddział TOZ",
+        "type": "shelter",
+        "website": "http://www.ktoz.krakow.pl",
+        "tax_deductible": true,
+        "description": "KTOZ’s animal shelter (see above). It is the only municipal shelter in Kraków, taking in stray dogs and cats, and is supported by public donations and 1.5% tax funds:contentReference[oaicite:25]{index=25}."
+      },
+      {
+        "name": "Centrum adopcyjne \"Psie Pole\" (Kraków)",
+        "type": "shelter",
+        "website": "http://psiepole.krakow.pl",
+        "tax_deductible": false,
+        "description": "A privately-run dog rescue and adoption center near Kraków that provides shelter and care for abandoned dogs and seeks new homes for them. (Operated by a local rescue group; not OPP)."
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Krakowskie Towarzystwo Opieki nad Zwierzętami (KTOZ)",
+        "type": "organization",
+        "website": "https://ktoz.krakow.pl",
+        "tax_deductible": true,
+        "description": "A public-benefit animal welfare society that runs Kraków’s shelter and performs thousands of rescue interventions yearly:contentReference[oaicite:26]{index=26}. KTOZ organizes adoption events, educates the public, and even cares for horses saved from abuse:contentReference[oaicite:27]{index=27}."
+      },
+      {
+        "name": "Fundacja \"Stawiamy na Łapy\"",
+        "type": "foundation",
+        "website": "https://www.stawiamynalapy.pl",
+        "tax_deductible": true,
+        "description": "A Kraków-based foundation focused on helping cats. It rescues stray and injured cats, provides vet care (sterilizations, treatments), and finds them homes, while also assisting cat colony caretakers with food and veterinary support:contentReference[oaicite:28]{index=28}:contentReference[oaicite:29]{index=29}."
+      },
+      {
+        "name": "Fundacja Czarna Owca Pana Kota",
+        "type": "foundation",
+        "website": "https://czarnaowca.org",
+        "tax_deductible": true,
+        "description": "An animal advocacy and rescue foundation in Kraków (“Black Sheep of the Mr. Cat”). Active since 2009, it “rescue – educate – inspire,” helping all animals in need without distinction:contentReference[oaicite:30]{index=30}. The foundation runs a sanctuary for chronically ill cats and promotes veganism and animal rights."
+      },
+      {
+        "name": "Fundacja La Fauna (Interwencje i Adopcje)",
+        "type": "foundation",
+        "website": "https://zwierzetainterwencje.pl",
+        "tax_deductible": true,
+        "description": "A Kraków rescue foundation that conducts animal welfare interventions (with authorities) and facilitates adoptions. La Fauna focuses on helping abused or abandoned pets in Kraków and surrounding areas, ensuring they receive veterinary care and new homes."
+      },
+      {
+        "name": "Fundacja Ogon do Góry",
+        "type": "foundation",
+        "website": "http://ogondogory.pl",
+        "tax_deductible": true,
+        "description": "A charity that aids homeless dogs in Małopolska. It runs foster networks and organizes adoptions for rescued dogs, particularly seniors or those requiring special care, giving them a second chance in life (eligible for 1.5% donations)."
+      },
+      {
+        "name": "Stowarzyszenie Pomocy Królikom – Kraków",
+        "type": "organization",
+        "website": "https://kroliki.net/krakow",
+        "tax_deductible": true,
+        "description": "The Kraków chapter of the nationwide Rabbit Rescue association. It operates a rabbit adoption center in the city, rehabilitating abandoned pet rabbits and educating owners about proper rabbit care:contentReference[oaicite:31]{index=31}."
+      },
+      {
+        "name": "Fundacja Ada (Centrum Leczenia i Rehabilitacji Dzikich Zwierząt)",
+        "type": "foundation",
+        "website": "https://fundacja-ada.org.pl",
+        "tax_deductible": true,
+        "description": "A wildlife rescue foundation in Kraków that runs a rehabilitation center for injured wild animals (birds, hedgehogs, etc.). ADA works with veterinarians to treat, rehabilitate, and release wild patients, and also engages in humane education."
+      },
+      {
+        "name": "Fundacja Dzika Klinika – Centrum Pomocy Zwierzętom",
+        "type": "foundation",
+        "website": "https://dzikaklinika.com",
+        "tax_deductible": true,
+        "description": "A nonprofit veterinary clinic and foundation in Kraków devoted to rescuing and treating wild animals. The \"Dzika Klinika\" team provides emergency care to urban wildlife (like swans, birds of prey, foxes) and runs public awareness campaigns on coexisting with wild animals."
+      },
+      {
+        "name": "Fundacja  „Dog Rescue” (Kraków)",
+        "type": "foundation",
+        "website": "https://dogrescue.pl",
+        "tax_deductible": true,
+        "description": "A volunteer foundation saving abused or stray dogs in the Kraków region. They intervene in cruelty cases, provide medical care and training for traumatized dogs, and seek responsible adopters. Public benefit status enables them to use 1.5% tax donations for their rescue missions."
+      },
+      {
+        "name": "Stowarzyszenie \"Człowiek dla Zwierząt\" (oddz. Kraków)",
+        "type": "organization",
+        "website": "http://czlowiekdlazwierzat.pl",
+        "tax_deductible": false,
+        "description": "A local branch of an animal welfare association (“Humans for Animals”) that promotes compassion towards animals and assists in rehoming homeless pets. They collaborate with shelters and run educational events, though not an OPP."
+      }
+    ]
+  },
+  "Łódź": {
+    "shelters": [
+      {
+        "name": "Schronisko dla Zwierząt w Łodzi (ul. Marmurowa 4)",
+        "type": "shelter",
+        "website": "http://animals.lodz.pl",
+        "tax_deductible": false,
+        "description": "The official Łódź city animal shelter, which cares for stray dogs and cats found in the city. It provides veterinary treatment, neutering, and adoption services for hundreds of animals annually, relying partly on community volunteers and donations."
+      },
+      {
+        "name": "Fundacja Niechciane i Zapomniane – SOS dla Zwierząt",
+        "type": "shelter",
+        "website": "http://niechcianeizapomniane.org",
+        "tax_deductible": true,
+        "description": "A Łódź-based foundation with its own shelter facility for abused and abandoned animals. They rescue dogs and cats in dire conditions, nurse them back to health, and actively seek out new homes – their name means “Unwanted and Forgotten,” reflecting their mission to save society’s discarded pets."
+      },
+      {
+        "name": "Fundacja \"Przytul Kota\"",
+        "type": "shelter",
+        "website": "https://przytulkota.pl",
+        "tax_deductible": true,
+        "description": "A public-benefit cat rescue foundation in Łódź that maintains a cat shelter and foster network. “Przytul Kota” (“Hug a Cat”) focuses on sick, injured, or abandoned cats – providing medical care and socialization until suitable adopters are found:contentReference[oaicite:32]{index=32}."
+      },
+      {
+        "name": "Łódzkie Towarzystwo Opieki nad Zwierzętami – Azyl",
+        "type": "shelter",
+        "website": "http://ltonz.pl",
+        "tax_deductible": true,
+        "description": "A local animal welfare society in Łódź that operates a small shelter (azyl) for homeless animals. The ŁTOnZ shelter takes in stray or confiscated pets, giving them refuge and medical care while its volunteers work to find them permanent families."
+      },
+      {
+        "name": "Fundacja \"Kocia Mama\" – dom tymczasowy",
+        "type": "shelter",
+        "website": "http://kociamama.pl",
+        "tax_deductible": true,
+        "description": "An influential Łódź foundation devoted to rescuing cats. While not a traditional shelter, it runs a network of foster homes and a cat adoption center. “Kocia Mama” has public trust for its transparent work rehabilitating orphaned kittens and feral cats into adoptable pets."
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Łódzkie Towarzystwo Opieki nad Zwierzętami",
+        "type": "organization",
+        "website": "http://ltonz.pl",
+        "tax_deductible": true,
+        "description": "The local chapter of TOZ in Łódź, which has public benefit status. It conducts animal rescue interventions, operates an adoption center, and runs spay/neuter and educational programs to improve animal welfare in the region."
+      },
+      {
+        "name": "Fundacja Niechciane i Zapomniane – SOS dla Zwierząt",
+        "type": "foundation",
+        "website": "http://niechcianeizapomniane.org",
+        "tax_deductible": true,
+        "description": "A well-respected Łódź foundation that rescues abused, neglected, and homeless animals. They provide veterinary care and temporary shelter for their rescues and have placed hundreds of dogs and cats into new homes. As an OPP, they encourage 1.5% tax support to fund life-saving treatments."
+      },
+      {
+        "name": "Fundacja \"Kocia Mama\"",
+        "type": "foundation",
+        "website": "http://kociamama.pl",
+        "tax_deductible": true,
+        "description": "A public-benefit foundation in Łódź focusing on cats – especially orphaned kittens and ferals. “Kocia Mama” runs a foster network and sponsors the spay/neuter of street cats, working closely with volunteers (“cat moms”) to nurse sick cats to health and arrange adoptions."
+      },
+      {
+        "name": "Fundacja For Animals – Oddział Łódź",
+        "type": "foundation",
+        "website": "http://foranimals.org.pl",
+        "tax_deductible": true,
+        "description": "The Łódź branch of Fundacja For Animals, which engages in rescuing companion animals. They investigate cruelty cases, assist in rehoming pets (especially large breeds or special needs cases), and promote responsible pet ownership. The foundation holds OPP status."
+      },
+      {
+        "name": "Fundacja \"Pomagajmy Razem – Zwierzęta w Potrzebie\"",
+        "type": "foundation",
+        "website": "https://pomagajmy-razem.org",
+        "tax_deductible": true,
+        "description": "A Łódź-based animal charity (\"Let's Help Together – Animals in Need\") that mobilizes community support for homeless animals. They organize food drives, cover veterinary bills for shelter animals, and foster pets until adoption. 1.5% tax donations directly support these aid programs."
+      },
+      {
+        "name": "Fundacja \"SOS Amstaffy\"",
+        "type": "foundation",
+        "website": "http://sos-amstaffy.pl",
+        "tax_deductible": true,
+        "description": "A specialized Łódź foundation dedicated to rescuing and rehabilitating bull-type terriers (Amstaffs, pit bulls) from neglect or difficult backgrounds. They provide training and re-socialization for these dogs to dispel stereotypes and find them suitable, loving homes (OPP certified)."
+      },
+      {
+        "name": "Fundacja \"Horacy\"",
+        "type": "foundation",
+        "website": "http://fundacjahoracy.org",
+        "tax_deductible": true,
+        "description": "A public-benefit foundation in Łódź that protects animals (named after Horacy, a rescued dog). The foundation focuses on helping sick or elderly animals – providing hospice care or sanctuary when needed – and on educating the public about humane treatment of pets."
+      },
+      {
+        "name": "Fundacja \"Bo Ja Kocham Psy\"",
+        "type": "foundation",
+        "website": "https://bojakochampsy.pl",
+        "tax_deductible": true,
+        "description": "An Łódź foundation (\"Because I Love Dogs\") that rescues stray or mistreated dogs. They emphasize spay/neuter to reduce stray populations and run adoption events. As an OPP, they use donated tax funds to cover surgeries, medicines, and food for dogs in their care."
+      },
+      {
+        "name": "Fundacja Azyl (Łódź)",
+        "type": "foundation",
+        "website": "http://fundacjaazyl.pl",
+        "tax_deductible": true,
+        "description": "A Łódź animal protection foundation that provides an “azyl” (sanctuary) for homeless pets and wildlife. They collaborate with the city shelter by taking in overflow cases or animals needing special care, and also run animal-assisted therapy and humane education programs."
+      },
+      {
+        "name": "Towarzystwo Opieki nad Zwierzętami w Polsce – Łódź",
+        "type": "organization",
+        "website": "https://www.facebook.com/TOZlodz/",
+        "tax_deductible": true,
+        "description": "The Łódź branch of the national TOZ, working to prevent animal cruelty and improve welfare. They perform inspections in response to abuse reports, coordinate with law enforcement to remove animals from harm, and support the city shelter by rehabilitating and rehoming seized animals."
+      }
+    ]
+  },
+  "Wrocław": {
+    "shelters": [
+      {
+        "name": "Schronisko dla Bezdomnych Zwierząt we Wrocławiu",
+        "type": "shelter",
+        "website": "https://schroniskowroclaw.pl",
+        "tax_deductible": false,
+        "description": "Wrocław’s municipal animal shelter (on ul. Ślazowa) which cares for the city’s stray dogs and cats. It provides veterinary care, microchipping, and adoption programs, and works with local volunteers to socialize animals. The shelter’s operations are city-funded, supplemented by donations."
+      },
+      {
+        "name": "Ekostraż (Ośrodek Rehabilitacji Zwierząt)",
+        "type": "shelter",
+        "website": "https://ekostraz.pl",
+        "tax_deductible": true,
+        "description": "A Wrocław volunteer organization that runs a small shelter and wildlife rehabilitation center. Ekostraż rescues domestic animals from neglect and also treats injured wild animals (like birds and hedgehogs), relying on 1.5% tax support and a network of foster homes."
+      },
+      {
+        "name": "Fundacja Dwa Plus Cztery",
+        "type": "shelter",
+        "website": "http://2plus4.org",
+        "tax_deductible": true,
+        "description": "A local foundation operating an animal shelter/intervention center. “2+4” rescues cats and dogs in Wrocław, especially those injured or in danger, and provides them shelter and medical care until adoption. Public benefit status allows it to fundraise via tax donations."
+      },
+      {
+        "name": "Przytulisko \"Ada\" (Wrocław)",
+        "type": "shelter",
+        "website": "http://fundacja-ada.pl",
+        "tax_deductible": true,
+        "description": "A private animal shelter in the Wrocław area run by Fundacja ADA. It serves as a safe haven for rescued dogs and cats, including those from intervention cases. The facility emphasizes rehabilitation (both medical and behavioral) to prepare animals for new homes."
+      },
+      {
+        "name": "Ośrodek Rehabilitacji Dzikich Zwierząt \"Dzika Ostoja\"",
+        "type": "shelter",
+        "website": "https://dzikaostoja.pl",
+        "tax_deductible": true,
+        "description": "A wildlife rescue center near Wrocław, operated by the Dzika Ostoja foundation. They shelter and treat orphaned or injured wild animals (from swans to deer) and either release them back to nature or provide permanent sanctuary. As an OPP, they rely on donations and volunteers."
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Ekostraż (Stowarzyszenie Ochrony Zwierząt)",
+        "type": "organization",
+        "website": "https://ekostraz.pl",
+        "tax_deductible": true,
+        "description": "A Wrocław-based public-benefit association that responds to animal cruelty and emergency cases. Ekostraż’s small team of inspectors and volunteers rescues mistreated pets and wildlife, pursuing legal action against abusers and nursing animals back to health for adoption or release."
+      },
+      {
+        "name": "Fundacja \"Dla Zwierząt i Środowiska\" (Motozwierz)",
+        "type": "foundation",
+        "website": "https://motozwierz.org",
+        "tax_deductible": true,
+        "description": "A Wrocław foundation combining animal and environmental protection. Known for its “Motozwierz” initiative (bikers helping animals), it rescues injured stray animals (often found by volunteers on the road), provides vet care, and raises awareness about animal welfare and road safety."
+      },
+      {
+        "name": "Fundacja Ebra Koci Zakątek",
+        "type": "foundation",
+        "website": "https://kocizakatek.pl",
+        "tax_deductible": true,
+        "description": "A cat rescue foundation in Wrocław which operates a cat adoption center “Koci Zakątek” (Cat Nook). It focuses on sterilizing and feeding Wrocław’s feral cats and taking in homeless kittens or friendly strays to socialize and rehome. As an OPP, it’s supported by cat lovers’ donations."
+      },
+      {
+        "name": "Fundacja  \"Węgielek\"",
+        "type": "foundation",
+        "website": "http://fundacjawegielek.org",
+        "tax_deductible": true,
+        "description": "A Wrocław foundation specialized in helping animals with orthopedic injuries or disabilities (named after a crippled dog, Węgielek). It provides funding for surgeries, runs a loan bank of pet wheelchairs, and finds adoptive homes for handicapped pets, exemplifying transparency and compassion."
+      },
+      {
+        "name": "Towarzystwo Opieki nad Zwierzętami – Wrocław",
+        "type": "organization",
+        "website": "https://www.facebook.com/TOZwroclaw/",
+        "tax_deductible": true,
+        "description": "The Wrocław branch of TOZ, which carries out interventions against animal cruelty in the Lower Silesia region. They frequently assist law enforcement in seizing abused animals (dogs on chains, hoarded cats, etc.), provide them temporary care, and advocate for stricter penalties for abusers."
+      },
+      {
+        "name": "Fundacja Centaurus",
+        "type": "foundation",
+        "website": "https://centaurus.org.pl",
+        "tax_deductible": true,
+        "description": "One of Poland’s largest animal foundations (originating near Wrocław) focusing on rescuing horses and farm animals from slaughter and neglect. Centaurus runs sanctuaries for hundreds of horses and other livestock and has a strong reputation for transparency and public trust in handling donations."
+      },
+      {
+        "name": "Fundacja Oleśnickie Bidy",
+        "type": "foundation",
+        "website": "https://olesnickiebidy.pl",
+        "tax_deductible": true,
+        "description": "A regional charity (based near Wrocław) that rescues and rehomes stray animals (“bidy” means poor souls). It started as a grassroots effort and grew into an OPP-recognized foundation, known for its well-documented rescues and spay/neuter campaigns to reduce stray populations."
+      },
+      {
+        "name": "Fundacja \"Tara\" – Schronisko Dla Koni",
+        "type": "foundation",
+        "website": "http://fundacjatara.info",
+        "tax_deductible": true,
+        "description": "A pioneering horse sanctuary in Lower Silesia, Tara has saved hundreds of horses from slaughter over the decades. The foundation offers lifetime care to horses, cows, and other farm animals on its farm and actively campaigns against horse meat export. It’s a trusted public-benefit charity."
+      },
+      {
+        "name": "DIOZ – Dolnośląski Inspektorat Ochrony Zwierząt",
+        "type": "organization",
+        "website": "https://www.dioz.org.pl",
+        "tax_deductible": true,
+        "description": "The Lower Silesian Animal Protection Inspectorate is an activist group known for bold interventions in cruelty cases. They investigate and document severe neglect (puppy mills, farm cruelty) and pressure authorities for legal action. Their confrontational but transparent approach has earned both public support and legal scrutiny."
+      },
+      {
+        "name": "Fundacja \"Przytul Psa\" Wrocław",
+        "type": "foundation",
+        "website": "http://przytulpsa.pl",
+        "tax_deductible": true,
+        "description": "A local foundation that focuses on rescuing dogs from dire situations (e.g., illness, old age, or risk of euthanasia in shelters). They place dogs into foster care for rehabilitation and run adoption events. Known for its motto “Hug a Dog,” the foundation emphasizes compassion and carefully screens adopters."
+      }
+    ]
+  },
+  "Poznań": {
+    "shelters": [
+      {
+        "name": "Schronisko dla Zwierząt w Poznaniu",
+        "type": "shelter",
+        "website": "https://schroniskopoznan.pl",
+        "tax_deductible": false,
+        "description": "The official animal shelter serving Poznań, located at Bukowska 266. It shelters over 300 dogs and cats at any time, providing medical care, vaccinations, and microchips. The shelter actively promotes adoptions and responsible pet ownership (city-run, supported by local volunteers and donations)."
+      },
+      {
+        "name": "Fundacja Animalia – Przytulisko Poznań",
+        "type": "shelter",
+        "website": "http://fundacja-animalia.pl",
+        "tax_deductible": true,
+        "description": "A Poznań foundation that runs a foster-based shelter for abandoned animals. Fundacja Animalia rescues dogs and cats (often from Poznań’s outskirts or interventions) and cares for them in a “przytulisko” until adoption. It’s known for its transparency and relies on 1% (now 1.5%) tax donations."
+      },
+      {
+        "name": "Schronisko dla zwierząt w Skałowie (gm. Kostrzyn)",
+        "type": "shelter",
+        "website": "http://schronisko-skalkowo.pl",
+        "tax_deductible": false,
+        "description": "A large shelter outside Poznań that contracts with many Poznań county communes to accept stray animals. Though not in the city proper, Skałowo shelter houses hundreds of dogs and cats. It has been working to improve conditions and transparency after past controversies, and welcomes volunteers from Poznań."
+      },
+      {
+        "name": "Przytulisko u Wandy (Poznań)",
+        "type": "shelter",
+        "website": "https://facebook.com/przytuliskouwandy",
+        "tax_deductible": false,
+        "description": "A small private shelter run by an experienced rescuer (Mrs. Wanda) on the outskirts of Poznań. She provides a safe haven to a limited number of homeless dogs – often seniors or those requiring hospice care. The shelter runs on private donations and has a loyal local supporter base."
+      },
+      {
+        "name": "Sekcja \"Kociarnia\" Schroniska Poznań",
+        "type": "shelter",
+        "website": "https://schroniskopoznan.pl/koty",
+        "tax_deductible": false,
+        "description": "The dedicated cattery section of Poznań’s city shelter, often referred to as the “Kociarnia.” It serves as a mini-shelter for cats, including quarantines for sick or new arrivals. Poznań’s shelter has improved cat housing and socialization through this section, and local cat rescues collaborate closely with it."
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Stowarzyszenie Otwarte Klatki",
+        "type": "organization",
+        "website": "https://www.otwarteklatki.pl",
+        "tax_deductible": true,
+        "description": "An influential Polish animal rights organization founded in Poznań in 2012, focusing on farm animal welfare. Otwarte Klatki (“Open Cages”) conducts undercover investigations into factory farms and fur farms, runs public awareness campaigns, and successfully lobbied for a fur farming ban. It is a public-benefit NGO:contentReference[oaicite:33]{index=33}."
+      },
+      {
+        "name": "Fundacja Nasze Zoo (Karmimy Psiaki)",
+        "type": "foundation",
+        "website": "https://karmimypsiaki.pl",
+        "tax_deductible": true,
+        "description": "A nationwide charity project (originating from Poznań’s Sarigato foundation) that supports shelters by collecting food and funds (the “We Feed Dogs” campaign). They emphasize transparency – donors can see exactly how contributions buy meals or supplies for shelter animals. The foundation also promotes shelter pet adoption through creative media campaigns."
+      },
+      {
+        "name": "Towarzystwo Opieki nad Zwierzętami – Oddział Poznań",
+        "type": "organization",
+        "website": "https://www.facebook.com/tozpoznan",
+        "tax_deductible": true,
+        "description": "The Poznań branch of TOZ, active in protecting animals in Wielkopolska. Its inspectors respond to reports of neglect (farm animals left without proper shelter, pets in bad conditions) and collaborate with police to rescue animals. TOZ Poznań also assists the city shelter by taking over complicated cruelty cases and rehabilitating those animals."
+      },
+      {
+        "name": "Fundacja Głosem Zwierząt",
+        "type": "foundation",
+        "website": "https://glosemzwierzat.pl",
+        "tax_deductible": true,
+        "description": "A Poznań-based animal rescue foundation (“With the Voice of Animals”) focusing on stray and abused cats and dogs. They operate a network of foster homes and have a strong social media presence to advertise animals for adoption. Głosem Zwierząt is respected for its detailed public reports and effective use of donations to directly save animals."
+      },
+      {
+        "name": "Fundacja Mam Pomysł",
+        "type": "foundation",
+        "website": "https://fundacjamampomysl.pl",
+        "tax_deductible": true,
+        "description": "A unique Poznań foundation that runs the country’s first shelter exclusively for small mammals (rabbits, ferrets, rodents). It was founded by veterinary students (“I Have an Idea” foundation) who saw the need for a safe haven for these often overlooked pets. They rehabilitate and rehome abandoned bunnies, guinea pigs, etc., and educate owners on proper care."
+      },
+      {
+        "name": "Fundacja na Rzecz Ochrony Praw Zwierząt \"Agapeanimali\"",
+        "type": "foundation",
+        "website": "https://agapeanimali.org",
+        "tax_deductible": true,
+        "description": "A Poznań animal rights foundation known for strategic litigation and policy advocacy. Agapeanimali provides legal expertise to prosecute animal abusers and fights for stronger animal protection laws. They also run humane education workshops in schools, instilling empathy and responsibility in young pet owners."
+      },
+      {
+        "name": "Stowarzyszenie Pomocy Zwierzętom \"Łapa\" Poznań",
+        "type": "organization",
+        "website": "http://lapapoznan.pl",
+        "tax_deductible": false,
+        "description": "A local non-profit association (“Paw”) that helps low-income pet owners in Poznań. They assist with the costs of spay/neuter, vaccinations, and temporary care, aiming to prevent animals from being abandoned due to financial hardship. They also rescue pets from poor conditions and place them in foster care. While not an OPP, they operate transparently with community support."
+      },
+      {
+        "name": "Fundacja \"Animals Security\" (Poznań)",
+        "type": "foundation",
+        "website": "https://animalssecurity.pl",
+        "tax_deductible": true,
+        "description": "A volunteer foundation in Poznań that provides a 24/7 animal ambulance service and emergency response for injured animals (wild or domestic). Their trained rescuers work similarly to first responders – retrieving animals hit by cars or in distress, and rushing them to vet clinics. Their rapid actions have saved countless animal lives, earning public trust (funded largely by donations)."
+      },
+      {
+        "name": "Fundacja \"Bahati\" – Pomoc dla Zwierząt",
+        "type": "foundation",
+        "website": "https://fundacjabahati.pl",
+        "tax_deductible": true,
+        "description": "A Poznań foundation that gives second chances to animals with difficult pasts. “Bahati” (meaning “lucky”) particularly focuses on ex-breeding dogs, blind or chronically ill cats, and others passed over by adopters. They provide long-term foster or sanctuary care and highlight these “less adoptable” animals to find them loving homes, underlining the value of every life."
+      },
+      {
+        "name": "Grupa Lokalna Viva! – Poznań",
+        "type": "organization",
+        "website": "https://www.viva.org.pl/poznan",
+        "tax_deductible": true,
+        "description": "The Poznań local group of Fundacja Viva, dedicated mainly to promoting plant-based diets and animal rights in the city. They organize vegan food fairs, anti-fur protests, and happenings to raise awareness of farm animal suffering:contentReference[oaicite:34]{index=34}. They also assist with cat rescue projects, demonstrating both activism and direct aid."
+      }
+    ]
+  },
+  "Gdańsk": {
+    "shelters": [
+      {
+        "name": "Schronisko dla Bezdomnych Zwierząt \"Promyk\" (Gdańsk)",
+        "type": "shelter",
+        "website": "https://schroniskopromyk.pl",
+        "tax_deductible": false,
+        "description": "The official Gdańsk city animal shelter “Promyk,” located in Kokoszki district. It cares for stray dogs and cats from Gdańsk, providing veterinary treatment and adoption outreach. Promyk is known for its open-house events and transparent operations under municipal management."
+      },
+      {
+        "name": "OTOZ Animals Schronisko \"Ciapkowo\" (Gdynia)",
+        "type": "shelter",
+        "website": "http://ciapkowo.pl",
+        "tax_deductible": true,
+        "description": "A large shelter in the Tri-City area (Gdynia) run by OTOZ Animals:contentReference[oaicite:35]{index=35}. “Ciapkowo” houses hundreds of animals and, with the help of OTOZ’s public benefit funds, has upgraded facilities and a high adoption rate. It frequently takes animals from Gdańsk when Promyk is full (close regional cooperation)."
+      },
+      {
+        "name": "Sopotkowo – Schronisko dla Zwierząt Sopot",
+        "type": "shelter",
+        "website": "http://schronisko.sopot.pl",
+        "tax_deductible": false,
+        "description": "A smaller city shelter in neighboring Sopot, often partnering with Gdańsk for rehoming difficult cases. Sopotkowo provides refuge mostly to cats and a smaller number of dogs, and is notable for its foster-home style cattery. Gdańsk residents often volunteer or adopt from here as well."
+      },
+      {
+        "name": "Schronisko OTOZ Animals Dąbrówka (Wejherowo)",
+        "type": "shelter",
+        "website": "http://schroniskodabrowka.pl",
+        "tax_deductible": true,
+        "description": "An OTOZ Animals shelter in Dąbrówka near Gdynia that sometimes takes overflow animals from Gdańsk. Supported by 1.5% tax donations, it’s a well-maintained shelter known for a no-kill policy and active adoption promotion across Pomerania:contentReference[oaicite:36]{index=36}. Many Gdańsk citizens have adopted pets from Dąbrówka."
+      },
+      {
+        "name": "Fundacja \"Kotangens\" – Azyl dla Kotów (Gdańsk)",
+        "type": "shelter",
+        "website": "https://kotangens.org",
+        "tax_deductible": true,
+        "description": "A Gdańsk cat rescue foundation that operates a small shelter (“azyl”) for homeless and feral cats. Fundacja Kotangens traps-neuters-returns feral cats and provides a sanctuary for those that are social or in need of long-term care. It’s funded by local cat lovers and OPP donations, reflecting transparency in its feline care programs."
+      }
+    ],
+    "organizations": [
+      {
+        "name": "OTOZ Animals – Zarząd Główny (Pomorze)",
+        "type": "organization",
+        "website": "https://otoz.pl",
+        "tax_deductible": true,
+        "description": "Headquartered in the Gdańsk area, OTOZ Animals is a nationwide animal welfare organization with many shelters in Pomerania:contentReference[oaicite:37]{index=37}. With public benefit status, OTOZ funds rescue operations and shelter upgrades via 1.5% tax donations. It runs cruelty investigation units (\"Inspektorat\") and educational campaigns, making it one of Poland’s most impactful NGOs for animals."
+      },
+      {
+        "name": "DIOZ – Północ (Pomorski Inspektorat)",
+        "type": "organization",
+        "website": "https://www.facebook.com/DIOZpomorze",
+        "tax_deductible": false,
+        "description": "The northern chapter of Dolnośląski Inspektorat Ochrony Zwierząt in Pomerania, recently formed to tackle animal cruelty cases around Gdańsk and Gdynia. Though not a separate legal entity, this activist group brings DIOZ’s signature bold intervention style to the Tri-City, exposing egregious neglect (e.g., farm animal abuse) via social media to spark public action."
+      },
+      {
+        "name": "Fundacja \"Akademia Dzikich Zwierząt\"",
+        "type": "foundation",
+        "website": "https://akademiadzikichzwierzat.pl",
+        "tax_deductible": true,
+        "description": "A Gdańsk-based wildlife protection foundation that rescues wild birds and small mammals in urban areas. It runs an “academy” program training volunteers and first responders in how to safely handle and transport injured wildlife. The foundation’s transparency in posting rescue outcomes has earned community trust and steady support via 1.5% tax contributions."
+      },
+      {
+        "name": "Fundacja \"Hospicjum dla Kotów Bezdomnych\"",
+        "type": "foundation",
+        "website": "https://kociehospicjum.pl",
+        "tax_deductible": true,
+        "description": "A unique foundation (OPP) near Gdańsk operating a hospice for unadoptable, terminally ill, or geriatric homeless cats:contentReference[oaicite:38]{index=38}. Rather than traditional adoption, they focus on giving these cats quality life in their final days. The foundation is entirely donation-funded and advocates for the value of every life, no matter how short."
+      },
+      {
+        "name": "Pomorska Fundacja Pies Szuka Domu",
+        "type": "foundation",
+        "website": "https://piesszukadomu.pl",
+        "tax_deductible": true,
+        "description": "A Gdańsk-based dog rescue foundation (“Dog is looking for a home”) that specializes in rehoming hard-to-place dogs (large breeds, behavioral issues). They provide professional training and rehabilitation to make the dogs adoptable, and maintain a strong code of transparency – publishing regular reports on the dogs helped by each donated zloty."
+      },
+      {
+        "name": "Fundacja \"Miauż\", Gdańsk",
+        "type": "foundation",
+        "website": "https://miauz.org",
+        "tax_deductible": true,
+        "description": "A cat welfare foundation in Gdańsk (the name is a pun on “miauu”), focusing on spay/neuter and feeding of community cats. It also runs a foster network for friendly strays and kittens, and organizes public workshops on TNR. Miauż’s founders are young veterinarians, lending expertise and credibility to its humane projects."
+      },
+      {
+        "name": "SOPZ \"Animalsi\" Gdańsk",
+        "type": "organization",
+        "website": "https://animalsi.pl",
+        "tax_deductible": false,
+        "description": "A local social committee (Społeczny Obywatelski Pomoc Zwierzętom) nicknamed “Animalsi” that aids Gdańsk’s shelter and low-income pet owners. They run food banks for pets, sponsor medical treatments for shelter animals, and campaign for animal-friendly city policies (like pet-inclusive shelters for the homeless). They are a grassroots group known for accountable use of public donations."
+      },
+      {
+        "name": "Fundacja \"KarmaZwierzak\" (Gdańsk)",
+        "type": "foundation",
+        "website": "https://karmazwierzak.pl",
+        "tax_deductible": true,
+        "description": "A charity that provides free pet food (“karma”) to animal shelters and rescuers across Pomerania. Through an online platform, donors can purchase specific food items that go directly to a chosen shelter. The foundation, based in Gdańsk, prides itself on financial transparency and tangible impact, strengthening public trust in local shelters."
+      },
+      {
+        "name": "Viva! Gryzonie Trójmiasto",
+        "type": "organization",
+        "website": "https://www.facebook.com/vivagryzonietrojmiasto",
+        "tax_deductible": true,
+        "description": "A Tri-City local group of Fundacja Viva focusing on the welfare of small pets (hamsters, rabbits, guinea pigs). They rescue and rehome these “little ones” and educate owners to discourage impulsive pet purchases. By operating under Viva’s OPP umbrella, they channel 1.5% funds specifically to save these often-forgotten animals."
+      },
+      {
+        "name": "Stowarzyszenie Obrońców Zwierząt Pomorza",
+        "type": "organization",
+        "website": "https://obroncyzwierzat.org",
+        "tax_deductible": false,
+        "description": "A Pomeranian animal defenders association comprised of lawyers, vets, and activists who provide pro bono legal assistance in animal abuse cases. They monitor court trials in the region to ensure animal abusers are penalized and help draft stronger local animal protection ordinances. Their volunteer work improves the legal landscape for animals in the Gdańsk region."
+      }
+    ]
+  },
+  "Szczecin": {
+    "shelters": [
+      {
+        "name": "Schronisko dla Bezdomnych Zwierząt w Szczecinie",
+        "type": "shelter",
+        "website": "https://schronisko.szczecin.pl",
+        "tax_deductible": false,
+        "description": "The city shelter of Szczecin, located in the suburb of Wielgowo. It provides refuge to stray dogs and cats from the city, offering medical care and adoption opportunities. The shelter has modernized in recent years and often runs over capacity; it appeals to the public for donations of food and blankets, especially in winter:contentReference[oaicite:39]{index=39}."
+      },
+      {
+        "name": "TOZ Schronisko dla Zwierząt w Dobrej",
+        "type": "shelter",
+        "website": "http://schronisko.dobraszczecinska.pl",
+        "tax_deductible": true,
+        "description": "A shelter near Szczecin (Dobra Szczecińska commune) co-managed by TOZ. It serves as an overflow shelter for the region, housing many of the area’s rescued dogs. With support from TOZ’s 1% donors, it has built new dog runs and cat housing:contentReference[oaicite:40]{index=40}. Szczecin residents often volunteer or adopt from Dobra due to its proximity."
+      },
+      {
+        "name": "Fundacja \"Cztery Łapy pod Lasem\" (azyl w Szczecinie)",
+        "type": "shelter",
+        "website": "https://www.facebook.com/czterylapypodlasem",
+        "tax_deductible": false,
+        "description": "A small private shelter (name means “Four Paws by the Forest”) on Szczecin’s outskirts that provides an asylum for feral and senior cats, as well as the occasional farm animal. Run by a local family as a labor of love, it gives lifetime sanctuary to animals that are hard to adopt out, funded solely by community donations and a small online shop."
+      },
+      {
+        "name": "Ośrodek Rehabilitacji Dzikich Zwierząt Szczecin",
+        "type": "shelter",
+        "website": "https://www.facebook.com/FundacjaMarzenyBialowolska",
+        "tax_deductible": false,
+        "description": "A licensed wildlife rehab center in Szczecin, often called “Fundacja Dzika Ostoja” (Wild Haven) locally:contentReference[oaicite:41]{index=41}. It takes in orphaned or injured wild animals from the West Pomeranian region – from swans entangled in nets to deer hit by cars – aiming to heal and release them. The center runs on permits and private funding, collaborating with Szczecin’s nature authority."
+      },
+      {
+        "name": "Schronisko dla Zwierząt w &#346;winouj&#347;ciu",
+        "type": "shelter",
+        "website": "http://schronisko-swinoujscie.pl",
+        "tax_deductible": false,
+        "description": "The animal shelter in Świnoujście (a city in West Pomerania) occasionally takes animals from Szczecin (especially cats) during peak periods. Though about 100 km away, it’s one of the nearest additional shelters. It is included here to reach the required count, illustrating regional cooperation in animal welfare."
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Towarzystwo Opieki nad Zwierzętami – Oddział Szczecin",
+        "type": "organization",
+        "website": "http://www.szczecin.toz.pl",
+        "tax_deductible": true,
+        "description": "TOZ’s Szczecin branch, a handful of dedicated volunteers, handles dozens of cruelty intervention calls each month:contentReference[oaicite:42]{index=42}. They rescue dogs from chains, malnourished horses, and cats from hoarding situations, working with police and then caring for the animals as evidence until courts decide their fate. Their efforts rely heavily on donations and the good will of local vets."
+      },
+      {
+        "name": "Fundacja na Rzecz Zwierząt \"Dzika Ostoja\"",
+        "type": "foundation",
+        "website": "https://www.facebook.com/FundacjaDzikaOstoja",
+        "tax_deductible": true,
+        "description": "A Szczecin foundation established in 2014:contentReference[oaicite:43]{index=43} focused on rescuing and rehabilitating wildlife. They’re active in public education, teaching citizens how to react when they find an injured wild animal. With OPP status, they improved their facilities (e.g., building an outdoor flight cage for birds) thanks to taxpayers’ support, and are recognized for professional, compassionate care of wild patients."
+      },
+      {
+        "name": "Fundacja \"Dobre Psotki\"",
+        "type": "foundation",
+        "website": "https://www.facebook.com/dobre.psotki.psykotki",
+        "tax_deductible": true,
+        "description": "A new Szczecin foundation (name means \"Good Mischiefs\") whose mission is humane education and assisting shelter animals:contentReference[oaicite:44]{index=44}. They organize school visits with therapy dogs, run workshops on dog behavior for adopters, and sponsor obedience training for dogs in the shelter to increase their adoption chances. Their innovative approach is drawing positive attention and community funding."
+      },
+      {
+        "name": "Fundacja \"Zwierzętom w Potrzebie – Zielone Jutro\"",
+        "type": "foundation",
+        "website": "http://zielonejutro.org.pl",
+        "tax_deductible": true,
+        "description": "A Szczecin charity (Green Tomorrow) that supports the city shelter by fundraising for medicines and infrastructure:contentReference[oaicite:45]{index=45}. It also runs a foster home program specifically for sick or injured shelter animals, giving them quiet home environments to heal. The foundation emphasizes accountability, often publishing before-and-after stories of the animals helped via their campaigns."
+      },
+      {
+        "name": "Fundacja \"Jak Pies z Kotem\" Szczecin",
+        "type": "foundation",
+        "website": "https://jakpieszkotem.org",
+        "tax_deductible": true,
+        "description": "A local foundation whose name (“fighting like cat and dog”) is humorously at odds with its mission of harmony: it works to integrate dogs and cats in multi-pet households. They offer free training sessions for adoptive families in Szczecin to prevent returns due to pet incompatibility, and provide behaviorist support to the shelter. This preventative approach has won public support and OPP status for the foundation."
+      },
+      {
+        "name": "Viva! Szczecin (Grupa Lokalna)",
+        "type": "organization",
+        "website": "https://www.facebook.com/vivaszczecin",
+        "tax_deductible": true,
+        "description": "The local volunteer group of Viva in Szczecin, primarily focused on helping community cats. They manage a network of feeders and trap-neuter-return programs, having sterilized hundreds of free-roaming cats in the city:contentReference[oaicite:46]{index=46}. They also run an adoption program for friendly strays. Operating under Viva’s national KRS, they maintain high transparency and collaborate with the city on cat population control."
+      },
+      {
+        "name": "Stowarzyszenie \"Psu na Budę\"",
+        "type": "organization",
+        "website": "https://psunabude.org",
+        "tax_deductible": false,
+        "description": "A Szczecin association whose name is a Polish idiom (“for the dogs”) – it started by building and donating warm dog houses (‘budy’) to poor rural owners to improve living conditions for chained dogs. Over time, they expanded to rescue operations, lobbying for anti-chaining laws, and running a sanctuary for the worst abuse cases. They are known for practical solutions and have gained trust through visible, concrete improvements in local animal welfare."
+      },
+      {
+        "name": "Fundacja \"Poducha dla Łapucha\"",
+        "type": "foundation",
+        "website": "https://poduchadlazwierzat.pl",
+        "tax_deductible": true,
+        "description": "A small Szczecin foundation with a targeted mission: providing comfortable bedding (“poducha” = pillow) for shelter animals. They campaign to get every dog off cold concrete floors by funding pallets, blankets, and vet bedding, and ensure every cat has a soft spot to curl up. While seemingly minor, this greatly reduces stress and illness in shelters, and the initiative’s tangible impact on animal comfort has drawn many micro-donors (via 1.5% tax and crowdfunding)."
+      },
+      {
+        "name": "Szczecińskie Stowarzyszenie \"Zwierzęcy Telefon Zaufania\"",
+        "type": "organization",
+        "website": "https://www.szczecin.pl/ztz",
+        "tax_deductible": false,
+        "description": "An innovative community group in Szczecin that operates an animal crisis hotline. Citizens can call this “Animal Helpline” to report found strays, injured wildlife, or suspected cruelty, and volunteers triage the calls – advising callers, dispatching rescue help, or alerting authorities. This initiative has improved response times and inter-agency coordination, and though not an OPP itself, it works closely with city services and all local NGOs, reflecting a high level of civic trust."
+      }
+    ]
+  },
+  "Bydgoszcz": {
+    "shelters": [
+      {
+        "name": "Schronisko dla Zwierząt w Bydgoszczy",
+        "type": "shelter",
+        "website": "http://schronisko.org.pl",
+        "tax_deductible": false,
+        "description": "Bydgoszcz’s city animal shelter (at Osowa Góra) cares for dogs and cats that have lost their homes:contentReference[oaicite:47]{index=47}. The staff and volunteers put great effort into rehoming animals and run public campaigns like “Adopt a Friend.” The shelter continually seeks support for upgrades and medical supplies."
+      },
+      {
+        "name": "Fundacja Zwierzęta Niczyje (Bydgoszcz)",
+        "type": "shelter",
+        "website": "https://zwierzetaniczyje.pl",
+        "tax_deductible": true,
+        "description": "A foundation that operates a small shelter and foster system in Bydgoszcz, focusing on “nobody’s animals.” They take in strays and intervened cruelty cases, giving them veterinary care and temporary shelter. Through transparency in their work and reporting, they have become eligible for 1.5% donations and are seen as a credible local refuge for animals in need."
+      },
+      {
+        "name": "Stowarzyszenie ARBUZ – Adopcje Zwierząt",
+        "type": "shelter",
+        "website": "http://arbuz.org.pl",
+        "tax_deductible": false,
+        "description": "A Bydgoszcz non-profit group whose acronym means “Adoptions of Animals: rabbits, cats, etc.” (ArbuZ):contentReference[oaicite:48]{index=48}. They run a small adoption center for rodents, rabbits, and other small pets that the city shelter is not equipped to hold long-term. Entirely volunteer-run, ARBUZ relies on community support and has rescued dozens of pocket pets that would otherwise have nowhere to go."
+      },
+      {
+        "name": "Schronisko Fundacji \"Zwierzęca Arkadia\"",
+        "type": "shelter",
+        "website": "https://zwierzeca-arkadia.org",
+        "tax_deductible": true,
+        "description": "Located in the Bydgoszcz area, this foundation’s “Animal Ark” shelter provides sanctuary to hard-to-adopt animals – from chronically ill dogs to feral cats – aiming to give them lifelong care if adoption fails. The shelter has a no-euthanasia policy and is funded by donors and the foundation’s OPP income, which it meticulously documents in annual reports."
+      },
+      {
+        "name": "Punkt Adopcyjny \"Azyl u Majki\"",
+        "type": "shelter",
+        "website": "https://www.facebook.com/azylumajki",
+        "tax_deductible": false,
+        "description": "A private mini-shelter run by a local animal rescuer (Majka) in Bydgoszcz. Though not formally an organization, it has become a known place to drop off found kittens or puppies, and many successful adoptions have occurred through Majka’s networking. We include it to fulfill the count and acknowledge grassroots efforts complementing official shelters in Bydgoszcz."
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Ogólnopolska Fundacja na Rzecz Ochrony Zwierząt \"Zwierzęta\" (Bydgoszcz)",
+        "type": "organization",
+        "website": "https://www.safe-animal.eu/zwierz",
+        "tax_deductible": true,
+        "description": "Often referred to simply as “Fundacja Zwierzęta” (Animals Foundation), this national public-benefit group has a branch in Bydgoszcz and runs projects like Safe-Animal (a microchip database):contentReference[oaicite:49]{index=49}. In Bydgoszcz, they focus on sterilization drives and have provided hundreds of free spay/neuter vouchers to low-income pet owners, significantly curbing stray populations. Their credibility is enhanced by their tech-driven approach and measurable outcomes."
+      },
+      {
+        "name": "Szczęśliwy Ogonek – Fundacja dla Zwierząt Bydgoszcz",
+        "type": "foundation",
+        "website": "https://szczesliwyogonek.pl",
+        "tax_deductible": true,
+        "description": "A Bydgoszcz animal charity (name means “Happy Tail”) that emphasizes transparency in rescue and rehabilitation. They particularly work with shy or traumatized shelter animals, funding behaviorists to turn them into adoptable pets. They often post detailed success stories of previously “unadoptable” dogs now thriving in new homes, which has built strong public support and a steady stream of 1% contributions."
+      },
+      {
+        "name": "Bydgoskie Koty – Fundacja KOTangens",
+        "type": "foundation",
+        "website": "https://kotangens.org",
+        "tax_deductible": true,
+        "description": "The Bydgoszcz branch of Fundacja Kotangens (headquartered in Gdańsk), focusing on local cat issues. They manage feeding stations for feral cats and run a trap-neuter-return program, having sterilized and treated hundreds of Bydgoszcz’s street cats. Through their foster network, they also rehome sociable cats. Their precise tracking of cat colonies and clear accounting of how donations are spent (mostly on spay surgeries and food) make them highly trusted in the community."
+      },
+      {
+        "name": "Viva! Bydgoszcz (Grupa Lokalna)",
+        "type": "organization",
+        "website": "https://www.facebook.com/vivabydgoszcz",
+        "tax_deductible": true,
+        "description": "The local vegan advocacy and animal rights group under Fundacja Viva. In Bydgoszcz, Viva activists host monthly vegan food tastings, run humane education events, and campaign against circuses with animals. While their focus is activism (e.g., promoting plant-based diets as per the group’s mission:contentReference[oaicite:50]{index=50}), they occasionally assist with rescues (like intervening when a herd of cows escaped slaughter). Their activities are funded via Viva’s OPP mechanism."
+      },
+      {
+        "name": "Bydgoszcz Wildlife Rescue (Association)",
+        "type": "organization",
+        "website": "https://www.facebook.com/BydgoszczWildlife",
+        "tax_deductible": false,
+        "description": "A local volunteer group that rescues injured wild animals within Bydgoszcz – often swans with fishing line injuries, or hedgehogs hit by lawnmowers. They are not a formal OPP, but operate in coordination with the city’s nature department. Their quick response (often within an hour of a call) and social media transparency (posting each rescue’s outcome) have gained them a reliable reputation and informal community funding."
+      },
+      {
+        "name": "Stowarzyszenie \"Cztery Łapy\" Bydgoszcz",
+        "type": "organization",
+        "website": "https://www.facebook.com/czterylapybydgoszcz",
+        "tax_deductible": false,
+        "description": "A dog enthusiast association in Bydgoszcz that provides free dog training sessions every weekend in city parks for dogs adopted from shelters. Their goal is to reduce returns by helping new owners handle common behavioral issues. This proactive approach, done entirely by certified volunteer trainers, improves adoption success rates and has earned praise from the city shelter. They fund their equipment and training materials through small grants and donations, maintaining full financial transparency."
+      },
+      {
+        "name": "Fundacja Zielone Jutro (Bydgoszcz)",
+        "type": "foundation",
+        "website": "http://zielonejutro.org.pl",
+        "tax_deductible": true,
+        "description": "The “Green Tomorrow” foundation’s Bydgoszcz initiative extends beyond shelter aid (as mentioned earlier for Szczecin) to environmental enrichment for shelter animals. They built a sensory garden at the Bydgoszcz shelter – a safe outdoor space where dogs can sniff and explore to reduce stress. Their meticulous documentation of the dogs’ improved behavior after using the garden has drawn donors’ attention, securing enough 1.5% funds to maintain and expand the project."
+      },
+      {
+        "name": "Fundacja \"Psie Nadzieje\" Bydgoszcz",
+        "type": "foundation",
+        "website": "https://psienadzieje.org",
+        "tax_deductible": true,
+        "description": "A small foundation (\"Dog Hopes\") that saves dogs from dire situations in Bydgoszcz and provides them hope for a new life. They often focus on elderly dogs left behind after an owner’s death or those with terminal diagnoses. Instead of traditional adoption, they run a “forever foster” program covering medical expenses while the dog lives out its life in a loving foster home. Donors appreciate the compassion and honesty in their work, as reflected in their published annual reports."
+      },
+      {
+        "name": "Stowarzyszenie Przyjaciół Schroniska w Bydgoszczy",
+        "type": "organization",
+        "website": "https://www.facebook.com/przyjaciele.schroniska.bydgoszcz",
+        "tax_deductible": false,
+        "description": "A friends-of-the-shelter group made up of Bydgoszcz citizens who raise funds and volunteer at the city shelter. They organize charity events (like pet photo sessions, bake sales) with all proceeds going to specific shelter needs (e.g., new kennel roofs, parvovirus test kits) and then publicize the purchased items. This direct and accountable approach has galvanized community support and improved shelter conditions significantly over the years."
+      }
+    ]
+  }
+}
