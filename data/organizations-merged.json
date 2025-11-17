@@ -14,11 +14,11 @@
           {
             "name": "Fundacja Azylu pod Psim Aniołem",
             "type": "shelter",
-            "krs": "0000303812",
+            "krs": "0000098734",
             "opp_status": true,
-            "website": "https://fundacjaazyl.eu",
+            "website": "https://www.psianiol.org.pl/",
             "tax_deductible": true,
-            "description": "Fundacja Azyl helps animals in need, primarily dogs but also other animals requiring assistance. Registered in April 2008, the foundation is a public benefit organization operating in the Łódź region."
+            "description": "A long-running charitable shelter that rescues...rence[oaicite:1]{index=1}:contentReference[oaicite:2]{index=2}."
           },
           {
             "name": "Fundacja Schronisko dla Bezdomnych Zwierząt w Józefowie",
@@ -241,9 +241,7 @@
             "address": "ul. Zakręt 3, 32-245 Kraków",
             "phone": "12 312 04 24",
             "opp_status": true,
-            "focus": "Homeless animals shelter and care",
-            "krs": "0000722934",
-            "description": "Fundacja Ostoja Cztery Łapy (Four Paws Haven Foundation) helps homeless animals, particularly cats in the Kraków and Małopolska region. Established in March 2018, the foundation provides rescue, care, and adoption services for abandoned cats."
+            "focus": "Homeless animals shelter and care"
           },
           {
             "name": "Schronisko dla Zwierząt w Krakowie – Oddział TOZ",
@@ -290,10 +288,7 @@
             "address": "Balicka 56/29, 30-149 Kraków",
             "phone": "791 300 767",
             "opp_status": true,
-            "focus": "Interventions and adoptions",
-            "website": "https://zwierzetainterwencje.pl",
-            "krs": "0000675370",
-            "description": "La Fauna Foundation for Animals focuses on rescuing suffering and mistreated animals through interventions and education. Registered in April 2017, the foundation works to change attitudes toward animals and teach people that animals are sentient beings, not objects."
+            "focus": "Interventions and adoptions"
           },
           {
             "name": "La Fauna – Fundacja dla Zwierząt",
@@ -308,10 +303,7 @@
             "address": "Kluczborska 4/105 Kraków",
             "phone": "660 676 824",
             "opp_status": true,
-            "focus": "Animal welfare in Kraków",
-            "website": "https://zwierzetakrakowa.pl",
-            "krs": "0000099438",
-            "description": "Fundacja Zwierzęta Krakowa provides broadly defined assistance to homeless animals and works to reduce the scale of animal homelessness in Kraków. Established in March 2002, it is one of the older animal welfare foundations in the city."
+            "focus": "Animal welfare in Kraków"
           },
           {
             "name": "Fundacja Człowiek dla Zwierząt",
@@ -333,10 +325,7 @@
             "address": "Bosacka 9/9, 31-508 Kraków",
             "phone": "601 470 440",
             "opp_status": true,
-            "focus": "Horse rescue and care",
-            "website": "https://przyjacielepetrusa.eu",
-            "krs": "0000807026",
-            "description": "Friends of Petrus the Horse Foundation was established in October 2019, inspired by the rescue of a horse named Petrus. The foundation helps abused animals with a special focus on horses and other large animals, promoting animal welfare and rescue efforts."
+            "focus": "Horse rescue and care"
           },
           {
             "name": "Fundacja Stworzenia Pana Smolenia (oddziały w Małopolsce)",
@@ -372,9 +361,7 @@
             "address": "ul. Zakręt 3, 32-245 Kraków",
             "phone": "12 312 04 24",
             "opp_status": true,
-            "focus": "Homeless animals shelter and care",
-            "krs": "0000722934",
-            "description": "Fundacja Ostoja Cztery Łapy (Four Paws Haven Foundation) helps homeless animals, particularly cats in the Kraków and Małopolska region. Established in March 2018, the foundation provides rescue, care, and adoption services for abandoned cats."
+            "focus": "Homeless animals shelter and care"
           },
           {
             "name": "Fundacja Czarna Owca Pana Kota",
@@ -530,18 +517,14 @@
             "type": "foundation",
             "website": "https://fundacjaazyl.eu",
             "tax_deductible": true,
-            "description": "Fundacja Azyl helps animals in need, primarily dogs but also other animals requiring assistance. Registered in April 2008, the foundation is a public benefit organization operating in the Łódź region.",
-            "krs": "0000303812"
+            "description": "Łódź-based foundation helping all animals – pets and wildlife. Handles interventions, vet care and rehoming, including wild animals like roe deer or hedgehogs."
           },
           {
             "name": "Fundacja Azyl",
             "type": "foundation",
             "phone": "669 705 010",
             "opp_status": true,
-            "focus": "Animal shelter and rescue",
-            "website": "https://fundacjaazyl.eu",
-            "krs": "0000303812",
-            "description": "Fundacja Azyl helps animals in need, primarily dogs but also other animals requiring assistance. Registered in April 2008, the foundation is a public benefit organization operating in the Łódź region."
+            "focus": "Animal shelter and rescue"
           },
           {
             "name": "Fundacja Przytul Kota",
@@ -585,20 +568,16 @@
           {
             "name": "Fundacja Kocia Mama",
             "type": "foundation",
-            "website": "http://www.kociamama.pl",
+            "website": "https://kociamama.pl",
             "tax_deductible": true,
-            "description": "Fundacja Kocia Mama (Cat Mom Foundation) is a registered charity helping homeless cats in Łódź, focusing on adoptions, sterilization programs, and veterinary care for cats in need. Founded by Iza Milińska in February 2008.",
-            "krs": "0000298342"
+            "description": "Well-known Łódź cat foundation – extensive network of caretakers of free-living cats, large-scale neutering and rehoming actions."
           },
           {
             "name": "Fundacja Kocia Mama",
             "type": "foundation",
             "phone": "519 540 777",
             "opp_status": true,
-            "focus": "Cat rescue and care",
-            "website": "http://www.kociamama.pl",
-            "krs": "0000298342",
-            "description": "Fundacja Kocia Mama (Cat Mom Foundation) is a registered charity helping homeless cats in Łódź, focusing on adoptions, sterilization programs, and veterinary care for cats in need. Founded by Iza Milińska in February 2008."
+            "focus": "Cat rescue and care"
           },
           {
             "name": "Fundacja Pomagajmy Razem – Zwierzęta w Potrzebie",
@@ -613,28 +592,21 @@
             "type": "foundation",
             "phone": "539 921 853",
             "opp_status": true,
-            "focus": "Animal rescue",
-            "website": "http://www.fundacjahoracy.pl",
-            "krs": "0000474319",
-            "description": "Fundacja Horacy promotes proper animal treatment and helps animals in need. Registered in August 2013 as a public benefit organization, the foundation operates in the Łódź region focusing on animal protection and welfare."
+            "focus": "Animal rescue"
           },
           {
             "name": "Fundacja SOS Amstaffy",
             "type": "foundation",
             "phone": "604 977 207",
             "opp_status": true,
-            "focus": "American Staffordshire Terrier rescue",
-            "krs": "0000451471",
-            "description": "Fundacja SOS Amstaffy was registered in February 2013 to help abandoned dogs of breeds considered aggressive, mainly bull-type terriers (American Staffordshire Terriers). The foundation combats breed discrimination and helps abused and abandoned animals."
+            "focus": "American Staffordshire Terrier rescue"
           },
           {
             "name": "Stowarzyszenie Patrol Interwencyjny AS",
             "type": "organization",
             "phone": "506 084 086",
             "opp_status": true,
-            "focus": "Animal interventions",
-            "krs": "0000455738",
-            "description": "Patrol Interwencyjny AS Association focuses on animal welfare through intervention work, preventing animal neglect and cruelty, and providing care for homeless animals. Registered in April 2013, the organization conducts rescue operations in the Łódź area."
+            "focus": "Animal interventions"
           },
           {
             "name": "Fundacja \"Kocia Mama\"",
@@ -768,68 +740,52 @@
             "type": "organization",
             "website": "https://ekostraz.pl",
             "tax_deductible": true,
-            "description": "Stowarzyszenie Ochrony Zwierząt EKOSTRAŻ is a local social organization protecting domestic, wild, and free-roaming animals in Wrocław and Lower Silesian Voivodeship. Registered in March 2010 as a public benefit organization.",
-            "krs": "0000352569"
+            "description": "Very active intervention group helping all kinds of animals – from hedgehogs and foxes to dogs and cats. Runs over 500 interventions annually and operates wildlife rehabilitation projects."
           },
           {
             "name": "Stowarzyszenie Ekostraż",
             "type": "organization",
             "opp_status": true,
-            "focus": "Interventions for all species, including wildlife",
-            "website": "https://ekostraz.pl",
-            "krs": "0000352569",
-            "description": "Stowarzyszenie Ochrony Zwierząt EKOSTRAŻ is a local social organization protecting domestic, wild, and free-roaming animals in Wrocław and Lower Silesian Voivodeship. Registered in March 2010 as a public benefit organization."
+            "focus": "Interventions for all species, including wildlife"
           },
           {
             "name": "Fundacja 2 Plus 4",
             "type": "foundation",
-            "website": "http://2plus4.org",
+            "website": "https://www.2plus4.org",
             "tax_deductible": true,
-            "description": "Fundacja Dwa Plus Cztery helps unwanted dogs from shelters and interventions, runs temporary homes, and trains dogs with behavioral problems in Wrocław and Lower Silesia. Founded in November 2009. Note: The foundation entered liquidation status in 2022-2023.",
-            "krs": "0000341427"
+            "description": "Foundation supporting dogs and cats (adoptions, vet care) and collaborating with shelters in the region. Known slogan: \"Oddaj zwierzakowi, a nie fiskusowi 1,5%\"."
           },
           {
             "name": "Fundacja 2 Plus 4",
             "type": "foundation",
             "opp_status": true,
-            "focus": "Support for homeless dogs and cats in Dolny Śląsk region",
-            "website": "http://2plus4.org",
-            "krs": "0000341427",
-            "description": "Fundacja Dwa Plus Cztery helps unwanted dogs from shelters and interventions, runs temporary homes, and trains dogs with behavioral problems in Wrocław and Lower Silesia. Founded in November 2009. Note: The foundation entered liquidation status in 2022-2023."
+            "focus": "Support for homeless dogs and cats in Dolny Śląsk region"
           },
           {
             "name": "Fundacja Koci Zakątek",
             "type": "foundation",
             "website": "https://kocizakatek.pl",
             "tax_deductible": true,
-            "description": "Fundacja Koci Zakątek helps sick, abused, and abandoned animals with special care for cats. Established in 2009 (originally as Fundacja EBRA, renamed in 2010), it is a public benefit organization focused on cat welfare in Wrocław.",
-            "krs": "0000356442"
+            "description": "Wrocław cat foundation caring for about 100 cats – both free-living and those staying in temporary homes or the foundation’s house."
           },
           {
             "name": "Fundacja Koci Zakątek",
             "type": "foundation",
             "opp_status": true,
-            "focus": "Care for approx. 100 cats in Wrocław",
-            "website": "https://kocizakatek.pl",
-            "krs": "0000356442",
-            "description": "Fundacja Koci Zakątek helps sick, abused, and abandoned animals with special care for cats. Established in 2009 (originally as Fundacja EBRA, renamed in 2010), it is a public benefit organization focused on cat welfare in Wrocław."
+            "focus": "Care for approx. 100 cats in Wrocław"
           },
           {
             "name": "Fundacja DODO (Zoo Wrocław Dodo)",
             "type": "foundation",
             "website": "https://fundacjadodo.pl",
             "tax_deductible": true,
-            "description": "Fundacja Zoo Wrocław DODO supports protection of endangered and threatened species in Poland and worldwide, both in natural habitats and conservation breeding. Registered in June 2016, it supports over 30 conservation projects.",
-            "krs": "0000623492"
+            "description": "Foundation attached to Wrocław Zoo. Funds conservation projects for endangered wildlife, such as lemurs, penguins and manatees."
           },
           {
             "name": "Fundacja DODO",
             "type": "foundation",
             "opp_status": true,
-            "focus": "Conservation of endangered wild animals linked to Wrocław Zoo",
-            "website": "https://fundacjadodo.pl",
-            "krs": "0000623492",
-            "description": "Fundacja Zoo Wrocław DODO supports protection of endangered and threatened species in Poland and worldwide, both in natural habitats and conservation breeding. Registered in June 2016, it supports over 30 conservation projects."
+            "focus": "Conservation of endangered wild animals linked to Wrocław Zoo"
           },
           {
             "name": "Fundacja Węgielek",
@@ -923,10 +879,7 @@
             "name": "Schronisko dla Zwierząt w Poznaniu - Gaju",
             "type": "shelter",
             "address": "Gaj near Poznań",
-            "opp_status": true,
-            "website": "https://www.schroniskogaj.pl",
-            "krs": "0000603486",
-            "description": "Fundacja Schronisko dla Zwierząt w Gaju operates an animal shelter near Poznań providing care for homeless animals. Registered in February 2016 as a public benefit organization, the shelter is located in Gaj, Śrem municipality."
+            "opp_status": true
           },
           {
             "name": "Schronisko dla Bezdomnych Zwierząt w Obornikach",
@@ -1222,34 +1175,26 @@
             "type": "foundation",
             "website": "https://kotikowo.pl",
             "tax_deductible": true,
-            "description": "Fundacja KOTIKOWO helps abused and abandoned animals with a focus on cat rescue, adoption, sterilization programs, and care for free-roaming cats in the Gdańsk area. Operating since July 2011 as a public benefit organization.",
-            "krs": "0000391932"
+            "description": "Gdańsk-based non-profit helping abused and abandoned animals, mainly cats. Neutering, treatment and rehoming of cats from Gdańsk and surroundings."
           },
           {
             "name": "Fundacja Kotikowo",
             "type": "foundation",
             "opp_status": true,
-            "focus": "Help for abused and abandoned animals, mainly cats in Gdańsk",
-            "website": "https://kotikowo.pl",
-            "krs": "0000391932",
-            "description": "Fundacja KOTIKOWO helps abused and abandoned animals with a focus on cat rescue, adoption, sterilization programs, and care for free-roaming cats in the Gdańsk area. Operating since July 2011 as a public benefit organization."
+            "focus": "Help for abused and abandoned animals, mainly cats in Gdańsk"
           },
           {
             "name": "Fundacja Ochrony Zwierząt \"Ostoja\"",
             "type": "foundation",
             "website": "https://ostoja.gda.pl",
             "tax_deductible": true,
-            "description": "Pomorski Ośrodek Rehabilitacji Dzikich Zwierząt 'Ostoja' (Pomeranian Wildlife Rehabilitation Center) provides assistance to wild birds and small mammals, including endangered species. The foundation operates a wildlife rehabilitation center near Gdańsk.",
-            "krs": "0000542236"
+            "description": "Runs a rehabilitation centre for wild animals in Pomorskie; provides treatment for injured birds and mammals and releases them back into the wild."
           },
           {
             "name": "Fundacja Ochrony Zwierząt \"Ostoja\"",
             "type": "foundation",
             "opp_status": true,
-            "focus": "Rehabilitation centre for wild animals on Pomorze",
-            "website": "https://ostoja.gda.pl",
-            "krs": "0000542236",
-            "description": "Pomorski Ośrodek Rehabilitacji Dzikich Zwierząt 'Ostoja' (Pomeranian Wildlife Rehabilitation Center) provides assistance to wild birds and small mammals, including endangered species. The foundation operates a wildlife rehabilitation center near Gdańsk."
+            "focus": "Rehabilitation centre for wild animals on Pomorze"
           },
           {
             "name": "Fundacja Rottka Polska",
@@ -1271,9 +1216,7 @@
             "address": "ul. Witomińska 46, 81-311 Gdynia",
             "phone": "668-623-723",
             "opp_status": true,
-            "website": "https://dobrezwierzeta.pl",
-            "krs": "0000389320",
-            "description": "Fundacja Dobrych Zwierząt works to improve animal welfare and protect the natural environment through humanitarian education, awareness campaigns, and sterilization programs. Registered in June 2011."
+            "website": "www.dobrezwierzeta.pl"
           },
           {
             "name": "Fundacja Irasiad – Zagubionym",
@@ -1410,9 +1353,7 @@
             "type": "shelter",
             "address": "ul. Wojska Polskiego 247, 71-256 Szczecin",
             "phone": "91 487-02-81",
-            "opp_status": true,
-            "website": "https://schronisko.szczecin.pl",
-            "description": "Schronisko dla Bezdomnych Zwierząt w Szczecinie is a municipal animal shelter operated as a department of Zakład Usług Komunalnych (Municipal Services). It is a city-run facility providing care for homeless animals in Szczecin."
+            "opp_status": true
           },
           {
             "name": "Schronisko dla Bezdomnych Zwierząt w Dobrej (Szczecińskiej)",
@@ -1486,9 +1427,7 @@
             "type": "organization",
             "address": "ul. Ojca Beyzyma 5/2, 70-391 Szczecin",
             "phone": "91 422-30-88",
-            "opp_status": true,
-            "krs": "0000054167",
-            "description": "Zwierzęcy Telefon Zaufania (Animal Helpline) works to improve the fate of abandoned and sick animals through temporary homes, educational activities, and collaboration with authorities. Registered in 2000, it has been a public benefit organization since 2005."
+            "opp_status": true
           },
           {
             "name": "Zwierzęcy Telefon Zaufania – Szczecin",
@@ -1500,19 +1439,15 @@
           {
             "name": "Fundacja Ratujmy Ptaki",
             "type": "foundation",
-            "website": "https://www.ratujmyptaki.org",
+            "website": "https://ratujmyptaki.org",
             "tax_deductible": true,
-            "description": "Fundacja Ratujmy Ptaki (Save the Birds Foundation) focuses on environmental protection with emphasis on rescuing and rehabilitating wild birds. Registered in November 2001, the foundation operates a professional wildlife rescue center in Szczecin.",
-            "krs": "0000059806"
+            "description": "Bird rescue foundation providing emergency help, treatment and rehabilitation to wild birds in the region."
           },
           {
             "name": "Fundacja Ratujmy Ptaki",
             "type": "foundation",
             "opp_status": true,
-            "focus": "Bird rescue and rehabilitation in Szczecin region",
-            "website": "https://www.ratujmyptaki.org",
-            "krs": "0000059806",
-            "description": "Fundacja Ratujmy Ptaki (Save the Birds Foundation) focuses on environmental protection with emphasis on rescuing and rehabilitating wild birds. Registered in November 2001, the foundation operates a professional wildlife rescue center in Szczecin."
+            "focus": "Bird rescue and rehabilitation in Szczecin region"
           },
           {
             "name": "Fundacja All For Animals",
@@ -1627,16 +1562,14 @@
           {
             "name": "Schronisko dla Zwierząt w Bydgoszczy",
             "type": "shelter",
-            "website": "https://schronisko.org.pl",
+            "website": "https://schronisko.bydgoszcz.pl",
             "tax_deductible": false,
-            "description": "Schronisko dla Zwierząt w Bydgoszczy (Animal Shelter in Bydgoszcz) provides care for homeless dogs and cats. The shelter is a beneficiary of OTOZ ANIMALS and operates as a municipal facility."
+            "description": "Municipal shelter for Bydgoszcz, cooperating with local NGOs and volunteers."
           },
           {
             "name": "Schronisko dla Zwierząt w Bydgoszczy",
             "type": "shelter",
-            "opp_status": true,
-            "website": "https://schronisko.org.pl",
-            "description": "Schronisko dla Zwierząt w Bydgoszczy (Animal Shelter in Bydgoszcz) provides care for homeless dogs and cats. The shelter is a beneficiary of OTOZ ANIMALS and operates as a municipal facility."
+            "opp_status": true
           },
           {
             "name": "Schronisko dla Bezdomnych Zwierząt w Grudziądzu",
@@ -1701,18 +1634,13 @@
             "type": "organization",
             "website": "http://animals.bydgoszcz.pl",
             "tax_deductible": true,
-            "description": "Bydgoski Klub Przyjaciół Zwierząt \"Animals\" protects animals threatened by homelessness or human activity. Established in 1997, the organization sterilizes approximately 500 free-living cats annually and conducts around 200 interventions in animal abuse cases.",
-            "krs": "0000069428",
-            "opp_status": true
+            "description": "Local NGO running social shelter and network of temporary homes for abandoned dogs and cats."
           },
           {
             "name": "Bydgoski Klub Przyjaciół Zwierząt “Animals”",
             "type": "organization",
             "opp_status": true,
-            "focus": "Social shelter and foster network for dogs and cats in Bydgoszcz",
-            "website": "http://animals.bydgoszcz.pl",
-            "krs": "0000069428",
-            "description": "Bydgoski Klub Przyjaciół Zwierząt \"Animals\" protects animals threatened by homelessness or human activity. Established in 1997, the organization sterilizes approximately 500 free-living cats annually and conducts around 200 interventions in animal abuse cases."
+            "focus": "Social shelter and foster network for dogs and cats in Bydgoszcz"
           },
           {
             "name": "OTOZ Animals – Inspektorat Bydgoszcz",
@@ -1745,10 +1673,9 @@
           {
             "name": "Fundacja Azyl na Szubinie",
             "type": "foundation",
-            "website": "https://fundacjaazyl.eu",
+            "website": "https://azylszubin.pl",
             "tax_deductible": true,
-            "description": "Fundacja Azyl helps animals in need, primarily dogs but also other animals requiring assistance. Registered in April 2008, the foundation is a public benefit organization operating in the Łódź region.",
-            "krs": "0000303812"
+            "description": "Shelter-style foundation helping dogs and cats in Szubin and surroundings, closely connected to Bydgoszcz area."
           },
           {
             "name": "TOZ Oddział w Bydgoszczy",
@@ -1828,29 +1755,22 @@
             "type": "shelter",
             "address": "ul. Pancerniaków 7, 20-331 Lublin",
             "phone": "081 744-16-54",
-            "opp_status": true,
-            "website": "https://schronisko-zwierzaki.lublin.pl",
-            "krs": "0000304247",
-            "description": "Schronisko dla Bezdomnych Zwierząt w Lublinie is a municipal shelter owned by the City of Lublin, providing care for homeless animals including dogs, cats, birds, reptiles, and exotic animals."
+            "opp_status": true
           }
         ],
         "organizations": [
           {
             "name": "Fundacja Lubelska Straż Ochrony Zwierząt (LSOZ)",
             "type": "foundation",
-            "website": "https://www.lsoz.pl",
+            "website": "https://lsoz.org",
             "tax_deductible": true,
-            "description": "Fundacja Lubelska Straż Ochrony Zwierząt conducts comprehensive nature and environmental protection activities with special emphasis on animal protection. Founded in 2009, the organization operates an intervention patrol and wildlife rehabilitation center.",
-            "krs": "0000343426"
+            "description": "Intervention organisation in Lublin, reacting to cruelty and neglect cases, confiscating abused animals and providing care."
           },
           {
             "name": "Fundacja Lubelska Straż Ochrony Zwierząt (LSOZ)",
             "type": "foundation",
             "opp_status": true,
-            "focus": "Interventions and protection against animal cruelty in Lublin region",
-            "website": "https://www.lsoz.pl",
-            "krs": "0000343426",
-            "description": "Fundacja Lubelska Straż Ochrony Zwierząt conducts comprehensive nature and environmental protection activities with special emphasis on animal protection. Founded in 2009, the organization operates an intervention patrol and wildlife rehabilitation center."
+            "focus": "Interventions and protection against animal cruelty in Lublin region"
           }
         ]
       },
@@ -1859,10 +1779,7 @@
           {
             "name": "Schronisko dla Zwierząt w Katowicach",
             "type": "shelter",
-            "opp_status": true,
-            "website": "https://www.schronisko-katowice.eu",
-            "krs": "0000431376",
-            "description": "The Municipal Animal Shelter in Katowice is supported by Fundacja Przystanek Schronisko, which provides assistance to the shelter. The foundation helps homeless animals at the municipal facility located on Milowicka Street."
+            "opp_status": true
           }
         ],
         "organizations": [
@@ -1871,17 +1788,13 @@
             "type": "foundation",
             "website": "https://fundacjasosdlazwierzat.org",
             "tax_deductible": true,
-            "description": "Fundacja S.O.S. dla Zwierząt focuses on care for abandoned and homeless animals, combating animal homelessness, ecological education, and protecting wild species. Established in July 2007, the foundation operates the 'Psia Chata' shelter.",
-            "krs": "0000285182"
+            "description": "Silesian foundation running \"Psia Chata\" shelter and multiple animal aid programmes for pets and farm animals."
           },
           {
             "name": "Fundacja S.O.S. dla Zwierząt",
             "type": "foundation",
             "opp_status": true,
-            "focus": "Shelter \"Psia Chata\" and support for various animals, including pet and farm animals",
-            "website": "https://fundacjasosdlazwierzat.org",
-            "krs": "0000285182",
-            "description": "Fundacja S.O.S. dla Zwierząt focuses on care for abandoned and homeless animals, combating animal homelessness, ecological education, and protecting wild species. Established in July 2007, the foundation operates the 'Psia Chata' shelter."
+            "focus": "Shelter \"Psia Chata\" and support for various animals, including pet and farm animals"
           }
         ]
       },
@@ -1890,18 +1803,16 @@
           {
             "name": "Schronisko dla Zwierząt w Białymstoku",
             "type": "shelter",
-            "opp_status": true,
-            "website": "https://www.schronisko.bialystok.pl",
-            "description": "Schronisko dla Zwierząt 'Dolina Dolistówki' in Białystok is a municipal organizational unit providing care for homeless animals. As a local government facility, it is not registered in the KRS."
+            "opp_status": true
           }
         ],
         "organizations": [
           {
             "name": "TOZ – Schronisko dla Zwierząt w Białymstoku",
             "type": "organization",
-            "website": "https://www.schronisko.bialystok.pl",
+            "website": "https://bialystok.toz.pl",
             "tax_deductible": true,
-            "description": "Schronisko dla Zwierząt 'Dolina Dolistówki' in Białystok is a municipal organizational unit providing care for homeless animals. As a local government facility, it is not registered in the KRS."
+            "description": "Municipal TOZ-run shelter at ul. Dolistowska in Białystok, providing care to hundreds of dogs and cats."
           },
           {
             "name": "TOZ Oddział w Białymstoku",
@@ -1914,16 +1825,13 @@
             "type": "foundation",
             "website": "https://kotkowo.pl",
             "tax_deductible": true,
-            "description": "Fundacja Kotkowo helps cats, especially free-living cats, through treatment, sterilization, adoption, and education programs. Registered in December 2009, it has been a public benefit organization since 2012.",
-            "krs": "0000345319"
+            "description": "Białystok foundation focused on free-living and homeless cats, running neutering actions and a network of foster homes."
           },
           {
             "name": "Fundacja Kotkowo",
             "type": "foundation",
             "opp_status": true,
-            "focus": "TNR and foster network for cats in Białystok",
-            "krs": "0000345319",
-            "description": "Fundacja Kotkowo helps cats, especially free-living cats, through treatment, sterilization, adoption, and education programs. Registered in December 2009, it has been a public benefit organization since 2012."
+            "focus": "TNR and foster network for cats in Białystok"
           }
         ]
       },
@@ -1954,10 +1862,7 @@
             "type": "foundation",
             "address": "ul. Witomińska 46, 81-311 Gdynia",
             "phone": "668-623-723",
-            "opp_status": true,
-            "website": "https://dobrezwierzeta.pl",
-            "krs": "0000389320",
-            "description": "Fundacja Dobrych Zwierząt works to improve animal welfare and protect the natural environment through humanitarian education, awareness campaigns, and sterilization programs. Registered in June 2011."
+            "opp_status": true
           }
         ]
       },
@@ -1966,10 +1871,7 @@
           {
             "name": "Schronisko dla Zwierząt w Częstochowie",
             "type": "shelter",
-            "opp_status": true,
-            "website": "https://schroniskoczestochowa.pl",
-            "krs": "0000523832",
-            "description": "Schronisko dla Bezdomnych Zwierząt w Częstochowie operates through Towarzystwo Opieki nad Zwierzętami w Polsce - Częstochowa Branch, providing shelter and adoption services for homeless animals."
+            "opp_status": true
           }
         ],
         "organizations": [
@@ -1986,10 +1888,7 @@
           {
             "name": "Schronisko dla Zwierząt w Radomiu",
             "type": "shelter",
-            "opp_status": true,
-            "website": "http://schronisko.radom.pl",
-            "krs": "0000200933",
-            "description": "Schronisko dla Bezdomnych Zwierząt w Radomiu is operated by Radomskie Towarzystwo Opieki nad Zwierzętami, a registered charity with public benefit organization status."
+            "opp_status": true
           }
         ],
         "organizations": [
@@ -2006,10 +1905,7 @@
           {
             "name": "Schronisko dla Zwierząt w Rzeszowie",
             "type": "shelter",
-            "opp_status": true,
-            "website": "https://www.kundelek.rsoz.org",
-            "krs": "0000012533",
-            "description": "Municipal Shelter for Homeless Animals 'Kundelek' has been operated by Rzeszowskie Stowarzyszenie Ochrony Zwierząt since 2005, providing care for homeless dogs and cats from Rzeszów and surrounding municipalities."
+            "opp_status": true
           }
         ],
         "organizations": [
@@ -2024,10 +1920,7 @@
             "name": "Rzeszowskie Stowarzyszenie Ochrony Zwierząt \"Kundelek\"",
             "type": "organization",
             "opp_status": true,
-            "focus": "Shelter \"Kundelek\" and regional animal welfare",
-            "website": "http://rsoz.org",
-            "krs": "0000012533",
-            "description": "Rzeszowskie Stowarzyszenie Ochrony Zwierząt has been operating since 1997 with the main goal of helping homeless animals. The organization runs the municipal shelter 'Kundelek'."
+            "focus": "Shelter \"Kundelek\" and regional animal welfare"
           },
           {
             "name": "TOZ Oddział w Rzeszowie",
@@ -2042,10 +1935,7 @@
           {
             "name": "Schronisko dla Zwierząt w Sosnowcu",
             "type": "shelter",
-            "opp_status": true,
-            "website": "https://www.schronisko.sosnowiec.pl",
-            "krs": "0000365274",
-            "description": "Schronisko dla Zwierząt w Sosnowcu is supported and managed by Stowarzyszenie Opieki nad Zwierzętami 'NADZIEJA NA DOM', providing shelter and care services for homeless animals."
+            "opp_status": true
           }
         ],
         "organizations": [
@@ -2062,10 +1952,7 @@
           {
             "name": "Schronisko dla Zwierząt w Toruniu",
             "type": "shelter",
-            "opp_status": true,
-            "website": "http://schronisko-torun.oinfo.pl",
-            "krs": "0000028517",
-            "description": "Schronisko dla Zwierząt w Toruniu accepts tax donations through Stowarzyszenie Tilia. The shelter provides care for homeless animals in Toruń."
+            "opp_status": true
           }
         ],
         "organizations": [
@@ -2074,16 +1961,13 @@
             "type": "organization",
             "website": "https://torunskiezwierzaki.org",
             "tax_deductible": true,
-            "description": "Toruńskie Towarzystwo Ochrony Praw Zwierząt focuses on animal rights protection and raising awareness. Registered in May 2008, the association helps abandoned, injured, and homeless animals.",
-            "krs": "0000306300"
+            "description": "Organisation running Toruń’s municipal shelter and handling interventions, adoptions and anti-cruelty work."
           },
           {
             "name": "Toruńskie Towarzystwo Ochrony Praw Zwierząt",
             "type": "organization",
             "opp_status": true,
-            "focus": "Municipal shelter and animal welfare work in Toruń",
-            "krs": "0000306300",
-            "description": "Toruńskie Towarzystwo Ochrony Praw Zwierząt focuses on animal rights protection and raising awareness. Registered in May 2008, the association helps abandoned, injured, and homeless animals."
+            "focus": "Municipal shelter and animal welfare work in Toruń"
           },
           {
             "name": "TOZ Oddział w Toruniu",
@@ -2098,10 +1982,7 @@
           {
             "name": "Schronisko dla Zwierząt w Kielcach",
             "type": "shelter",
-            "opp_status": true,
-            "website": "https://schronisko.kielce.eu",
-            "krs": "0000261249",
-            "description": "Schronisko dla Zwierząt w Kielcach is operated by Stowarzyszenie 'Arka Nadziei', which has been involved in animal protection since 2013."
+            "opp_status": true
           }
         ],
         "organizations": [
@@ -2118,10 +1999,7 @@
           {
             "name": "Schronisko dla Zwierząt w Gliwicach",
             "type": "shelter",
-            "opp_status": true,
-            "website": "https://www.schronisko.gliwice.pl",
-            "krs": "0000154454",
-            "description": "Schronisko dla Zwierząt w Gliwicach is operated by Municipal Management of Communal Services. The municipal shelter is supported by TOZ Gliwice branch."
+            "opp_status": true
           }
         ],
         "organizations": [
@@ -2138,10 +2016,7 @@
           {
             "name": "Schronisko dla Zwierząt w Zabrzu",
             "type": "shelter",
-            "opp_status": true,
-            "website": "https://www.psitulmnie.pl",
-            "krs": "0000344726",
-            "description": "Schronisko dla Bezdomnych Zwierząt 'Psitul mnie' in Zabrze is operated by Towarzystwo Opieki nad Zwierzętami w Polsce - Zabrze Branch, providing care and adoption services."
+            "opp_status": true
           }
         ],
         "organizations": [
