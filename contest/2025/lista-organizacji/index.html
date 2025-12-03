@@ -456,8 +456,8 @@
                         ${org.tax_deductible ? '<span class="badge tax-deductible">Odliczenie 1.5%</span>' : ''}
                     </div>
                     <div class="city">📍 ${org.city}</div>
-                    <p>${org.description}</p>
-                    <a href="${org.website}" target="_blank" rel="noopener noreferrer" class="website">Odwiedź stronę →</a>
+                    ${org.description ? `<p>${org.description}</p>` : ''}
+                    ${org.website ? `<a href="${org.website}" target="_blank" rel="noopener noreferrer" class="website">Odwiedź stronę →</a>` : ''}
                 </div>
             `).join('');
 
