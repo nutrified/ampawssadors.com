@@ -1871,6 +1871,40 @@
           }
         ]
       },
+      "Chełm": {
+        "shelters": [
+          {
+            "name": "Schronisko dla Bezdomnych Zwierząt w Chełmie",
+            "type": "shelter",
+            "address": "ul. Włodawska 23a, 22-100 Chełm",
+            "phone": "692 458 243",
+            "website": "https://schroniskochelm.pl",
+            "tax_deductible": false,
+            "description": "Municipal shelter operating since 1960, currently managed by CARMIR Sp. z o.o. under contract with the City of Chełm. Houses approximately 100 dogs, all sterilized/neutered, vaccinated, and dewormed. Accepts stray animals from Chełm and surrounding municipalities."
+          }
+        ],
+        "organizations": [
+          {
+            "name": "Fundacja dla Zwierząt Szczęśliwy Los",
+            "type": "foundation",
+            "krs": "0000818529",
+            "opp_status": true,
+            "website": "https://schroniskochelm.pl",
+            "tax_deductible": true,
+            "description": "Public benefit foundation supporting the Chełm animal shelter. Works to protect and help homeless dogs and cats, improve their quality of life, and find them new homes. Eligible for 1.5% tax donations."
+          },
+          {
+            "name": "Stowarzyszenie Chełmska Straż Ochrony Zwierząt",
+            "type": "organization",
+            "krs": "0000413187",
+            "opp_status": true,
+            "address": "ul. Hrubieszowska 66, Chełm",
+            "website": "https://www.ratujemyzwierzaki.pl/csoz",
+            "tax_deductible": true,
+            "description": "Animal protection association operating in Chełm and surrounding regions (Lublin, Krasnystaw, Zamość). Conducts interventions against animal cruelty, operates rescue teams, and supports local shelters. Eligible for 1.5% tax donations."
+          }
+        ]
+      },
       "Katowice": {
         "shelters": [
           {
