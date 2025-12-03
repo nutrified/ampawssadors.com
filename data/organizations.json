@@ -1104,7 +1104,24 @@
             "type": "foundation",
             "website": "https://fundacjabahati.pl",
             "tax_deductible": true,
-            "description": "A Poznań foundation that gives second chances to animals with difficult pasts. “Bahati” (meaning “lucky”) particularly focuses on ex-breeding dogs, blind or chronically ill cats, and others passed over by adopters. They provide long-term foster or sanctuary care and highlight these “less adoptable” animals to find them loving homes, underlining the value of every life."
+            "description": "A Poznań foundation that gives second chances to animals with difficult pasts. "Bahati" (meaning "lucky") particularly focuses on ex-breeding dogs, blind or chronically ill cats, and others passed over by adopters. They provide long-term foster or sanctuary care and highlight these "less adoptable" animals to find them loving homes, underlining the value of every life."
+          },
+          {
+            "name": "Fundacja \"Wielkopolski Inspektorat Ochrony Zwierząt\"",
+            "type": "foundation",
+            "krs": "0000969215",
+            "nip": "7812035021",
+            "regon": "521875100",
+            "opp_status": true,
+            "tax_deductible": true,
+            "address": "ul. Juliusza Słowackiego 55/1, 60-521 Poznań",
+            "phone": "607 828 678",
+            "phone_adoptions": "796 951 555",
+            "email": "biuro.wioz@gmail.com",
+            "website": "https://wioz.pl",
+            "facebook": "https://facebook.com/wioz.wielkopolski.inspektorat.ochrony.zwierzat",
+            "instagram": "https://instagram.com/wioz__oficjalnie",
+            "description": "Greater Poland Animal Protection Inspectorate foundation registered in April 2022. Conducts animal intervention operations to rescue abused and neglected animals, manages adoption programs with qualified staff, provides veterinary care and treatment, and runs educational initiatives about proper animal care and welfare. Active in the Wielkopolska region with a focus on intervention cases."
           }
         ]
       },
